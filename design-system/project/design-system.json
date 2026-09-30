@@ -1,0 +1,106 @@
+{
+ "v": 3,
+ "layout": "files",
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-09-30T19:14:06Z"
+ },
+ "title": "Retro Design System",
+ "namespace": "Retro",
+ "libraries": [],
+ "sections": {},
+ "groups": [
+  "Showcase"
+ ],
+ "assetGroups": {
+  "Showcase": {
+   "name": "Showcase",
+   "tile": "l",
+   "order": [
+    "social-poster.png",
+    "system-01-mac-system-7.png",
+    "system-02-windows-95.png",
+    "system-03-windows-xp-luna.png",
+    "system-04-aqua-osx.png",
+    "system-05-amiga-workbench.png",
+    "system-09-crt-phosphor.png",
+    "system-10-dos-cga.png",
+    "system-11-8bit-arcade.png",
+    "system-15-cassette-futurism.png"
+   ],
+   "files": {
+    "social-poster.png": {
+     "name": "social-poster.png",
+     "blob": "2955791424d37c7ad1e1474aba7ee5b3",
+     "size": 2427370,
+     "type": "image/png"
+    },
+    "system-01-mac-system-7.png": {
+     "name": "system-01-mac-system-7.png",
+     "blob": "c4bcf7ac30b0efffb2cd89cf5cce1cb6",
+     "size": 33682,
+     "type": "image/png"
+    },
+    "system-02-windows-95.png": {
+     "name": "system-02-windows-95.png",
+     "blob": "0030ec1a9503cc5ee74db44b159f992c",
+     "size": 79111,
+     "type": "image/png"
+    },
+    "system-03-windows-xp-luna.png": {
+     "name": "system-03-windows-xp-luna.png",
+     "blob": "67f9a11bb71a2ee49d120748b35e3f22",
+     "size": 66811,
+     "type": "image/png"
+    },
+    "system-04-aqua-osx.png": {
+     "name": "system-04-aqua-osx.png",
+     "blob": "1e3743b2e72ae83c21e70edcff74f0b4",
+     "size": 105461,
+     "type": "image/png"
+    },
+    "system-05-amiga-workbench.png": {
+     "name": "system-05-amiga-workbench.png",
+     "blob": "da6b6fa19f66c1881a33da8c42216015",
+     "size": 18747,
+     "type": "image/png"
+    },
+    "system-09-crt-phosphor.png": {
+     "name": "system-09-crt-phosphor.png",
+     "blob": "c5db5b584a23d289e7ea839aff751a27",
+     "size": 278423,
+     "type": "image/png"
+    },
+    "system-10-dos-cga.png": {
+     "name": "system-10-dos-cga.png",
+     "blob": "30081a488c9fc6f9e372338634a9047e",
+     "size": 32662,
+     "type": "image/png"
+    },
+    "system-11-8bit-arcade.png": {
+     "name": "system-11-8bit-arcade.png",
+     "blob": "cc1e0d6c2a6dc0a53f3cf5dfa368153d",
+     "size": 157464,
+     "type": "image/png"
+    },
+    "system-15-cassette-futurism.png": {
+     "name": "system-15-cassette-futurism.png",
+     "blob": "fe3028ed8e85fdb752857a9a17385088",
+     "size": 270089,
+     "type": "image/png"
+    }
+   }
+  }
+ },
+ "blobs": {},
+ "docs": {
+  "readme": "project/README.md",
+  "sections": []
+ },
+ "lastChange": {
+  "by": "Levi Trillfonix",
+  "at": "2026-09-30T19:14:06Z",
+  "via": "Claude (Cowork)",
+  "note": "Imported all 53 systems from LeviTrillfonix/retro-design-system: tokens, brand book, switcher, cover."
+ }
+}
