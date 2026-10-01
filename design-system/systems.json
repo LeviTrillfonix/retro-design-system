@@ -1,0 +1,4429 @@
+[
+ {
+  "num": 1,
+  "slug": "01-mac-system-7",
+  "id": "macsys7",
+  "name": "Mac System 7",
+  "era": "Desktop OS",
+  "year": 1991,
+  "tags": [
+   "mac",
+   "monochrome",
+   "bevel",
+   "classic"
+  ],
+  "path": "styles/01-mac-system-7/index.html",
+  "palette": [
+   "#a8a8a8",
+   "#888888",
+   "#ffffff",
+   "#000000",
+   "#dddddd"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#888888",
+    "src": "`--desktop`"
+   },
+   "surface": {
+    "value": "#ffffff",
+    "src": "`--paper`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "border": {
+    "value": "#000000",
+    "src": "`--shadow`"
+   },
+   "accent": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "accent2": {
+    "value": "#dddddd",
+    "src": "`--chrome`"
+   },
+   "highlight": {
+    "value": "#a8a8a8",
+    "src": "`--bg`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 21.0:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#888888",
+   "surface": "#ffffff",
+   "ink": "#000000",
+   "muted": "#888888",
+   "border": "#000000",
+   "accent": "#000000",
+   "accent2": "#dddddd",
+   "highlight": "#a8a8a8",
+   "onaccent": "#ffffff"
+  },
+  "contrast": {
+   "ink_surface": 21.0,
+   "ink_bg": 5.92,
+   "muted_surface": 3.54,
+   "onaccent_accent": 21.0
+  },
+  "font": "\"Chicago\", \"Charcoal\", \"Geneva\", Tahoma, sans-serif",
+  "fontAlt": {
+   "font-body": "\"Geneva\", \"Helvetica\", sans-serif"
+  },
+  "bodySize": "12px",
+  "note": "Monochrome by design: System 7 draws UI in black, white and greys, and shows selection by inversion, so the accent is black."
+ },
+ {
+  "num": 2,
+  "slug": "02-windows-95",
+  "id": "win95",
+  "name": "Windows 95",
+  "era": "Desktop OS",
+  "year": 1995,
+  "tags": [
+   "windows",
+   "bevel",
+   "chrome",
+   "classic"
+  ],
+  "path": "styles/02-windows-95/index.html",
+  "palette": [
+   "#008080",
+   "#c0c0c0",
+   "#dfdfdf",
+   "#ffffff",
+   "#808080",
+   "#000000",
+   "#000080"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#008080",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#c0c0c0",
+    "src": "`--chrome`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#808080",
+    "src": "`--chrome-dark`"
+   },
+   "border": {
+    "value": "#000000",
+    "src": "`--chrome-darker`"
+   },
+   "accent": {
+    "value": "#000080",
+    "src": "`--title`"
+   },
+   "accent2": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "highlight": {
+    "value": "#ffffff",
+    "src": "`--chrome-lighter`"
+   },
+   "onaccent": {
+    "alias": "highlight",
+    "src": "computed: the system colour with most contrast on `accent` (highlight, 16.01:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#008080",
+   "surface": "#c0c0c0",
+   "ink": "#000000",
+   "muted": "#808080",
+   "border": "#000000",
+   "accent": "#000080",
+   "accent2": "#008080",
+   "highlight": "#ffffff",
+   "onaccent": "#ffffff"
+  },
+  "contrast": {
+   "ink_surface": 11.54,
+   "ink_bg": 4.4,
+   "muted_surface": 2.17,
+   "onaccent_accent": 16.01
+  },
+  "font": "\"MS Sans Serif\", \"Pixelated MS Sans Serif\", Tahoma, sans-serif",
+  "fontAlt": {},
+  "bodySize": "11px",
+  "note": "`muted` is Windows disabled-text grey (#808080); it fails as body text on the silver chrome. Use it for disabled states only."
+ },
+ {
+  "num": 3,
+  "slug": "03-windows-xp-luna",
+  "id": "xpluna",
+  "name": "Windows XP Luna",
+  "era": "Desktop OS",
+  "year": 2001,
+  "tags": [
+   "windows",
+   "glossy",
+   "blue",
+   "luna"
+  ],
+  "path": "styles/03-windows-xp-luna/index.html",
+  "palette": [
+   "#5a7edb",
+   "#99c6ff",
+   "#2a5fd7",
+   "#5893df",
+   "#0c3aa2",
+   "#ece9d8",
+   "#d6d3c2",
+   "#0a246a"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#4e8edd",
+    "src": "body background gradient, stop 2 of 5"
+   },
+   "surface": {
+    "value": "#ece9d8",
+    "src": "`--chrome`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "body `color: #000`"
+   },
+   "muted": {
+    "value": "#3a6ea5",
+    "src": "`--title-gradient` gradient, stop 2 of 4"
+   },
+   "border": {
+    "value": "#0c3aa2",
+    "src": "`--luna-blue-3`"
+   },
+   "accent": {
+    "value": "#2a5fd7",
+    "src": "`--luna-blue`"
+   },
+   "accent2": {
+    "value": "#3cb83c",
+    "src": "`--start-green` gradient, stop 2 of 4"
+   },
+   "highlight": {
+    "value": "#99c6ff",
+    "src": "`--bg-bot`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 4.63:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#4e8edd",
+   "surface": "#ece9d8",
+   "ink": "#000000",
+   "muted": "#3a6ea5",
+   "border": "#0c3aa2",
+   "accent": "#2a5fd7",
+   "accent2": "#3cb83c",
+   "highlight": "#99c6ff",
+   "onaccent": "#ece9d8"
+  },
+  "contrast": {
+   "ink_surface": 17.21,
+   "ink_bg": 6.24,
+   "muted_surface": 4.35,
+   "onaccent_accent": 4.63
+  },
+  "font": "\"Trebuchet MS\", \"Tahoma\", \"Franklin Gothic Medium\", sans-serif",
+  "fontAlt": {},
+  "bodySize": "11px",
+  "note": "Blue page background is the middle stop of the Bliss-sky body gradient; Start-button green is `accent2`."
+ },
+ {
+  "num": 4,
+  "slug": "04-aqua-osx",
+  "id": "aqua",
+  "name": "Mac OS X Aqua",
+  "era": "Desktop OS",
+  "year": 2001,
+  "tags": [
+   "mac",
+   "glossy",
+   "gel",
+   "aqua"
+  ],
+  "path": "styles/04-aqua-osx/index.html",
+  "palette": [
+   "#b8c9e0",
+   "#e8e8e8",
+   "#c8c8c8",
+   "#4d90fe",
+   "#2057c2",
+   "#ff9a8a",
+   "#ff4b2b",
+   "#b21808"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#b8c9e0",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#e8e8e8",
+    "src": "`--chrome` gradient, stop 1 of 2"
+   },
+   "ink": {
+    "value": "#1a1a1a",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#2057c2",
+    "src": "`--aqua-blue-deep`"
+   },
+   "border": {
+    "value": "#c8c8c8",
+    "src": "`--chrome` gradient, stop 2 of 2"
+   },
+   "accent": {
+    "value": "#4d90fe",
+    "src": "`--aqua-blue`"
+   },
+   "accent2": {
+    "value": "#ff4b2b",
+    "src": "`--jelly-red` gradient, stop 2 of 3"
+   },
+   "highlight": {
+    "value": "#ffbe2b",
+    "src": "`--jelly-yellow` gradient, stop 2 of 3"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 5.58:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#b8c9e0",
+   "surface": "#e8e8e8",
+   "ink": "#1a1a1a",
+   "muted": "#2057c2",
+   "border": "#c8c8c8",
+   "accent": "#4d90fe",
+   "accent2": "#ff4b2b",
+   "highlight": "#ffbe2b",
+   "onaccent": "#1a1a1a"
+  },
+  "contrast": {
+   "ink_surface": 14.2,
+   "ink_bg": 10.33,
+   "muted_surface": 5.35,
+   "onaccent_accent": 5.58
+  },
+  "font": "\"Lucida Grande\", \"Helvetica Neue\", sans-serif",
+  "fontAlt": {},
+  "bodySize": "13px",
+  "note": "Gel buttons are radial gradients in the source; the traffic-light body colours (red/yellow) are used flat."
+ },
+ {
+  "num": 5,
+  "slug": "05-amiga-workbench",
+  "id": "amiga",
+  "name": "Amiga Workbench",
+  "era": "Desktop OS",
+  "year": 1985,
+  "tags": [
+   "amiga",
+   "retro",
+   "orange",
+   "blue"
+  ],
+  "path": "styles/05-amiga-workbench/index.html",
+  "palette": [
+   "#0055aa",
+   "#ff8800",
+   "#ffffff",
+   "#000000",
+   "#a0a0a0"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#0055aa",
+    "src": "`--wb-blue`"
+   },
+   "surface": {
+    "value": "#a0a0a0",
+    "src": "`--wb-gray`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "border": {
+    "value": "#000000",
+    "src": "`--wb-black`"
+   },
+   "accent": {
+    "value": "#ff8800",
+    "src": "`--wb-orange`"
+   },
+   "accent2": {
+    "value": "#ffffff",
+    "src": "`--wb-white`"
+   },
+   "highlight": {
+    "alias": "accent2",
+    "src": "same as `accent2`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 8.77:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#0055aa",
+   "surface": "#a0a0a0",
+   "ink": "#000000",
+   "muted": "#0055aa",
+   "border": "#000000",
+   "accent": "#ff8800",
+   "accent2": "#ffffff",
+   "highlight": "#ffffff",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 8.03,
+   "ink_bg": 2.88,
+   "muted_surface": 2.79,
+   "onaccent_accent": 8.77
+  },
+  "font": "\"Topaz\", \"Courier New\", \"Consolas\", monospace",
+  "fontAlt": {},
+  "bodySize": "13px",
+  "note": "Workbench 1.x four-colour palette has no secondary-text tone; `muted` reuses the desktop blue and fails on the grey window."
+ },
+ {
+  "num": 6,
+  "slug": "06-nextstep",
+  "id": "nextstep",
+  "name": "NeXTSTEP",
+  "era": "Desktop OS",
+  "year": 1989,
+  "tags": [
+   "next",
+   "greyscale",
+   "unix",
+   "chiseled"
+  ],
+  "path": "styles/06-nextstep/index.html",
+  "palette": [
+   "#555561",
+   "#a8a8b0",
+   "#606068",
+   "#2c2c30",
+   "#d0d0d4",
+   "#f0f0f4",
+   "#3c3c40",
+   "#000000"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#555561",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#a8a8b0",
+    "src": "`--chrome`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#2c2c30",
+    "src": "`--chrome-darker`"
+   },
+   "border": {
+    "value": "#606068",
+    "src": "`--chrome-dark`"
+   },
+   "accent": {
+    "value": "#3c3c40",
+    "src": "`--accent`"
+   },
+   "accent2": {
+    "value": "#d0d0d4",
+    "src": "`--chrome-light`"
+   },
+   "highlight": {
+    "value": "#f0f0f4",
+    "src": "`--chrome-lighter`"
+   },
+   "onaccent": {
+    "alias": "highlight",
+    "src": "computed: the system colour with most contrast on `accent` (highlight, 9.66:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#555561",
+   "surface": "#a8a8b0",
+   "ink": "#000000",
+   "muted": "#2c2c30",
+   "border": "#606068",
+   "accent": "#3c3c40",
+   "accent2": "#d0d0d4",
+   "highlight": "#f0f0f4",
+   "onaccent": "#f0f0f4"
+  },
+  "contrast": {
+   "ink_surface": 8.89,
+   "ink_bg": 2.86,
+   "muted_surface": 5.89,
+   "onaccent_accent": 9.66
+  },
+  "font": "\"Helvetica Neue\", \"Helvetica\", \"Liberation Sans\", sans-serif",
+  "fontAlt": {},
+  "bodySize": "12px",
+  "note": "Greyscale by design; no hue anywhere in the NeXT palette."
+ },
+ {
+  "num": 7,
+  "slug": "07-beos",
+  "id": "beos",
+  "name": "BeOS",
+  "era": "Desktop OS",
+  "year": 1996,
+  "tags": [
+   "beos",
+   "yellow",
+   "tab",
+   "media"
+  ],
+  "path": "styles/07-beos/index.html",
+  "palette": [
+   "#2a5556",
+   "#cfcfcf",
+   "#e8e8e8",
+   "#ffffff",
+   "#888888",
+   "#404040",
+   "#ffcc00",
+   "#cc9900"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#2a5556",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#cfcfcf",
+    "src": "`--chrome`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#404040",
+    "src": "`--chrome-darker`"
+   },
+   "border": {
+    "value": "#888888",
+    "src": "`--chrome-dark`"
+   },
+   "accent": {
+    "value": "#ffcc00",
+    "src": "`--yellow`"
+   },
+   "accent2": {
+    "value": "#e04040",
+    "src": "`--red-dot`"
+   },
+   "highlight": {
+    "value": "#ffffff",
+    "src": "`--chrome-lighter`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 13.89:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#2a5556",
+   "surface": "#cfcfcf",
+   "ink": "#000000",
+   "muted": "#404040",
+   "border": "#888888",
+   "accent": "#ffcc00",
+   "accent2": "#e04040",
+   "highlight": "#ffffff",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 13.48,
+   "ink_bg": 2.53,
+   "muted_surface": 6.66,
+   "onaccent_accent": 13.89
+  },
+  "font": "\"Swiss 721\", \"Helvetica\", \"Swis721 BT\", sans-serif",
+  "fontAlt": {},
+  "bodySize": "12px",
+  "note": ""
+ },
+ {
+  "num": 8,
+  "slug": "08-teletext",
+  "id": "teletext",
+  "name": "Teletext",
+  "era": "Broadcast",
+  "year": 1974,
+  "tags": [
+   "teletext",
+   "blocky",
+   "primary",
+   "tv"
+  ],
+  "path": "styles/08-teletext/index.html",
+  "palette": [
+   "#000000",
+   "#ff0000",
+   "#00ff00",
+   "#ffff00",
+   "#0000ff",
+   "#ff00ff",
+   "#00ffff",
+   "#ffffff"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#1a1a1a",
+    "src": "body background `#1a1a1a`"
+   },
+   "surface": {
+    "value": "#000000",
+    "src": "`--tt-black`"
+   },
+   "ink": {
+    "value": "#ffffff",
+    "src": "`--tt-white`"
+   },
+   "muted": {
+    "value": "#00ffff",
+    "src": "`--tt-cyan`"
+   },
+   "border": {
+    "value": "#0000ff",
+    "src": "`--tt-blue`"
+   },
+   "accent": {
+    "value": "#ffff00",
+    "src": "`--tt-yellow`"
+   },
+   "accent2": {
+    "value": "#ff0000",
+    "src": "`--tt-red`"
+   },
+   "highlight": {
+    "value": "#00ff00",
+    "src": "`--tt-green`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 19.56:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#1a1a1a",
+   "surface": "#000000",
+   "ink": "#ffffff",
+   "muted": "#00ffff",
+   "border": "#0000ff",
+   "accent": "#ffff00",
+   "accent2": "#ff0000",
+   "highlight": "#00ff00",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 21.0,
+   "ink_bg": 17.4,
+   "muted_surface": 16.75,
+   "onaccent_accent": 19.56
+  },
+  "font": "\"VT323\", \"Courier New\", \"Consolas\", monospace",
+  "fontAlt": {},
+  "bodySize": "22px",
+  "note": "Teletext has no grey; secondary text is cyan, as on Ceefax. Page background is the #1a1a1a around the black \"TV\"."
+ },
+ {
+  "num": 9,
+  "slug": "09-crt-phosphor",
+  "id": "crt",
+  "name": "CRT Phosphor Terminal",
+  "era": "Terminal",
+  "year": 1980,
+  "tags": [
+   "terminal",
+   "green",
+   "scanline",
+   "phosphor"
+  ],
+  "path": "styles/09-crt-phosphor/index.html",
+  "palette": [
+   "#001a00",
+   "#33ff33",
+   "#1a8a1a",
+   "#aaffaa",
+   "#ffb400"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#000000",
+    "src": "body background `#000`"
+   },
+   "surface": {
+    "value": "#001a00",
+    "src": "`--bg`"
+   },
+   "ink": {
+    "value": "#33ff33",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#1a8a1a",
+    "src": "`--ink-dim`"
+   },
+   "border": {
+    "alias": "muted",
+    "src": "same as `muted`"
+   },
+   "accent": {
+    "value": "#aaffaa",
+    "src": "`--ink-bright`"
+   },
+   "accent2": {
+    "value": "#ffb400",
+    "src": "`--amber`"
+   },
+   "highlight": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 17.59:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#000000",
+   "surface": "#001a00",
+   "ink": "#33ff33",
+   "muted": "#1a8a1a",
+   "border": "#1a8a1a",
+   "accent": "#aaffaa",
+   "accent2": "#ffb400",
+   "highlight": "#33ff33",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 13.5,
+   "ink_bg": 15.49,
+   "muted_surface": 4.09,
+   "onaccent_accent": 17.59
+  },
+  "font": "\"VT323\", \"IBM Plex Mono\", \"Courier New\", monospace",
+  "fontAlt": {},
+  "bodySize": "20px",
+  "note": "Two-colour phosphor: green text plus an amber alert. Page is #000; the tube face is #001a00."
+ },
+ {
+  "num": 10,
+  "slug": "10-dos-cga",
+  "id": "doscga",
+  "name": "DOS CGA",
+  "era": "Terminal",
+  "year": 1981,
+  "tags": [
+   "dos",
+   "cyan",
+   "magenta",
+   "4-color"
+  ],
+  "path": "styles/10-dos-cga/index.html",
+  "palette": [
+   "#000000",
+   "#0000aa",
+   "#5555ff",
+   "#00aa00",
+   "#00aaaa",
+   "#55ffff",
+   "#aa0000",
+   "#aa00aa"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#0000aa",
+    "src": "`--c-blue`"
+   },
+   "surface": {
+    "value": "#000000",
+    "src": "`--c-black`"
+   },
+   "ink": {
+    "value": "#aaaaaa",
+    "src": "`--c-gray`"
+   },
+   "muted": {
+    "value": "#00aaaa",
+    "src": "`--c-cyan`"
+   },
+   "border": {
+    "value": "#ffffff",
+    "src": "`--c-white`"
+   },
+   "accent": {
+    "value": "#55ffff",
+    "src": "`--c-cyan-bright`"
+   },
+   "accent2": {
+    "value": "#aa00aa",
+    "src": "`--c-magenta`"
+   },
+   "highlight": {
+    "value": "#ffff55",
+    "src": "`--c-yellow`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 17.13:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#0000aa",
+   "surface": "#000000",
+   "ink": "#aaaaaa",
+   "muted": "#00aaaa",
+   "border": "#ffffff",
+   "accent": "#55ffff",
+   "accent2": "#aa00aa",
+   "highlight": "#ffff55",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 9.04,
+   "ink_bg": 5.72,
+   "muted_surface": 7.33,
+   "onaccent_accent": 17.13
+  },
+  "font": "\"Perfect DOS VGA 437\", \"IBM Plex Mono\", \"Courier New\", monospace",
+  "fontAlt": {},
+  "bodySize": "18px",
+  "note": "Body is grey-on-blue DOS; the black surface is the terminal window."
+ },
+ {
+  "num": 11,
+  "slug": "11-8bit-arcade",
+  "id": "arcade",
+  "name": "8-Bit Arcade",
+  "era": "Gaming",
+  "year": 1983,
+  "tags": [
+   "arcade",
+   "pixel",
+   "neon",
+   "8-bit"
+  ],
+  "path": "styles/11-8bit-arcade/index.html",
+  "palette": [
+   "#0b0b1e",
+   "#ff2d95",
+   "#00e5ff",
+   "#ffd300",
+   "#2bff88",
+   "#ff3b3b",
+   "#7c1dfd",
+   "#ffffff"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#0b0b1e",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#1a1440",
+    "src": "body background gradient, stop 1 of 3"
+   },
+   "ink": {
+    "value": "#e9e9ff",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#00e5ff",
+    "src": "`--cyan`"
+   },
+   "border": {
+    "value": "#7c1dfd",
+    "src": "`--purple`"
+   },
+   "accent": {
+    "value": "#ff2d95",
+    "src": "`--pink`"
+   },
+   "accent2": {
+    "value": "#ffd300",
+    "src": "`--yellow`"
+   },
+   "highlight": {
+    "value": "#2bff88",
+    "src": "`--green`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 5.61:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#0b0b1e",
+   "surface": "#1a1440",
+   "ink": "#e9e9ff",
+   "muted": "#00e5ff",
+   "border": "#7c1dfd",
+   "accent": "#ff2d95",
+   "accent2": "#ffd300",
+   "highlight": "#2bff88",
+   "onaccent": "#0b0b1e"
+  },
+  "contrast": {
+   "ink_surface": 14.42,
+   "ink_bg": 16.25,
+   "muted_surface": 11.21,
+   "onaccent_accent": 5.61
+  },
+  "font": "\"Press Start 2P\", \"VT323\", monospace",
+  "fontAlt": {},
+  "bodySize": "14px",
+  "note": "`surface` is the purple glow at the top of the page (#1a1440), from the body gradient."
+ },
+ {
+  "num": 12,
+  "slug": "12-frutiger-aero",
+  "id": "aero",
+  "name": "Frutiger Aero",
+  "era": "Web/UI",
+  "year": 2007,
+  "tags": [
+   "aero",
+   "glossy",
+   "nature",
+   "glass"
+  ],
+  "path": "styles/12-frutiger-aero/index.html",
+  "palette": [
+   "#7fcfff",
+   "#c7f0ff",
+   "#6ec86e",
+   "#0ea5ff",
+   "#3dd36b",
+   "#0b2a3c"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#7fcfff",
+    "src": "`--sky-top`"
+   },
+   "surface": {
+    "value": "rgba(255,255,255,0.35)",
+    "src": "`--glass`"
+   },
+   "ink": {
+    "value": "#0b2a3c",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "alias": "accent",
+    "src": "same as `accent`"
+   },
+   "accent": {
+    "value": "#0ea5ff",
+    "src": "`--aero-blue`"
+   },
+   "accent2": {
+    "value": "#3dd36b",
+    "src": "`--aero-green`"
+   },
+   "highlight": {
+    "value": "#c7f0ff",
+    "src": "`--sky-bot`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 5.56:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#7fcfff",
+   "surface": "rgba(255,255,255,0.35)",
+   "ink": "#0b2a3c",
+   "muted": "#0b2a3c",
+   "border": "#0ea5ff",
+   "accent": "#0ea5ff",
+   "accent2": "#3dd36b",
+   "highlight": "#c7f0ff",
+   "onaccent": "#0b2a3c"
+  },
+  "contrast": {
+   "ink_surface": 10.52,
+   "ink_bg": 8.7,
+   "muted_surface": 10.52,
+   "onaccent_accent": 5.56
+  },
+  "font": "\"Frutiger\", \"Segoe UI\", \"Myriad Pro\", \"Helvetica Neue\", sans-serif",
+  "fontAlt": {},
+  "bodySize": "14px",
+  "note": "Surface is 35% white glass. Contrast is measured with the glass composited over the sky. No secondary-text tone in source; `muted` = `ink`."
+ },
+ {
+  "num": 13,
+  "slug": "13-winamp-skin",
+  "id": "winamp",
+  "name": "Winamp Skin",
+  "era": "App",
+  "year": 1997,
+  "tags": [
+   "winamp",
+   "media",
+   "skin",
+   "lcd"
+  ],
+  "path": "styles/13-winamp-skin/index.html",
+  "palette": [
+   "#3c3c3c",
+   "#5a5a5a",
+   "#8a8a8a",
+   "#1a1a1a",
+   "#000000",
+   "#00ff33",
+   "#004d11",
+   "#ffb400"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#0e0e12",
+    "src": "body background `#0e0e12`"
+   },
+   "surface": {
+    "value": "#3c3c3c",
+    "src": "`--chrome`"
+   },
+   "ink": {
+    "value": "#eeeeee",
+    "src": "body `color: #eee`"
+   },
+   "muted": {
+    "value": "#8a8a8a",
+    "src": "`--chrome-lighter`"
+   },
+   "border": {
+    "value": "#5a5a5a",
+    "src": "`--chrome-light`"
+   },
+   "accent": {
+    "value": "#00ff33",
+    "src": "`--lcd`"
+   },
+   "accent2": {
+    "value": "#ffb400",
+    "src": "`--accent`"
+   },
+   "highlight": {
+    "value": "#ff3b3b",
+    "src": "`--accent-red`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 14.08:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#0e0e12",
+   "surface": "#3c3c3c",
+   "ink": "#eeeeee",
+   "muted": "#8a8a8a",
+   "border": "#5a5a5a",
+   "accent": "#00ff33",
+   "accent2": "#ffb400",
+   "highlight": "#ff3b3b",
+   "onaccent": "#0e0e12"
+  },
+  "contrast": {
+   "ink_surface": 9.51,
+   "ink_bg": 16.6,
+   "muted_surface": 3.2,
+   "onaccent_accent": 14.08
+  },
+  "font": "\"Helvetica Neue\", Arial, sans-serif",
+  "fontAlt": {
+   "font-lcd": "\"VT323\", \"DS-Digital\", monospace"
+  },
+  "bodySize": "12px",
+  "note": "LCD green is the accent; page is the dark #0e0e12 behind the skin."
+ },
+ {
+  "num": 14,
+  "slug": "14-geocities-web10",
+  "id": "geocities",
+  "name": "GeoCities Web 1.0",
+  "era": "Web",
+  "year": 1996,
+  "tags": [
+   "web1.0",
+   "kitsch",
+   "gif",
+   "tiled"
+  ],
+  "path": "styles/14-geocities-web10/index.html",
+  "palette": [
+   "#000000",
+   "#0000ee",
+   "#551a8b",
+   "#ff3399",
+   "#00ff00",
+   "#ffff00",
+   "#ff0000",
+   "#00ffff"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#000000",
+    "src": "body background `#000` (starfield)"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#ffff00",
+    "src": "`--yellow`"
+   },
+   "muted": {
+    "value": "#00ffff",
+    "src": "`--cyan`"
+   },
+   "border": {
+    "alias": "muted",
+    "src": "same as `muted`"
+   },
+   "accent": {
+    "value": "#ff3399",
+    "src": "`--hotpink`"
+   },
+   "accent2": {
+    "value": "#00ff00",
+    "src": "`--lime`"
+   },
+   "highlight": {
+    "value": "#ff0000",
+    "src": "`--red`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 6.19:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#000000",
+   "surface": "#000000",
+   "ink": "#ffff00",
+   "muted": "#00ffff",
+   "border": "#00ffff",
+   "accent": "#ff3399",
+   "accent2": "#00ff00",
+   "highlight": "#ff0000",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 19.56,
+   "ink_bg": 19.56,
+   "muted_surface": 16.75,
+   "onaccent_accent": 6.19
+  },
+  "font": "\"Comic Sans MS\", \"Times New Roman\", serif",
+  "fontAlt": {},
+  "bodySize": "14px",
+  "note": "Black starfield with yellow text. Default link blue (#0000ee) is kept out of the text roles: it measures 2.2:1 on black."
+ },
+ {
+  "num": 15,
+  "slug": "15-cassette-futurism",
+  "id": "cassette",
+  "name": "Cassette Futurism",
+  "era": "Sci-Fi",
+  "year": 1979,
+  "tags": [
+   "scifi",
+   "control-panel",
+   "amber",
+   "analog"
+  ],
+  "path": "styles/15-cassette-futurism/index.html",
+  "palette": [
+   "#0a0704",
+   "#1a1510",
+   "#241d15",
+   "#3a2f22",
+   "#ffb000",
+   "#8a5c00",
+   "#ffd470",
+   "#d9a85e"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#0a0704",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#1a1510",
+    "src": "`--panel`"
+   },
+   "ink": {
+    "value": "#ffb000",
+    "src": "`--amber`"
+   },
+   "muted": {
+    "value": "#d9a85e",
+    "src": "`--ink`"
+   },
+   "border": {
+    "value": "#3a2f22",
+    "src": "`--bezel`"
+   },
+   "accent": {
+    "value": "#ffd470",
+    "src": "`--amber-bright`"
+   },
+   "accent2": {
+    "value": "#ff4422",
+    "src": "`--red-warn`"
+   },
+   "highlight": {
+    "value": "#5aff8a",
+    "src": "`--green-ok`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 14.26:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#0a0704",
+   "surface": "#1a1510",
+   "ink": "#ffb000",
+   "muted": "#d9a85e",
+   "border": "#3a2f22",
+   "accent": "#ffd470",
+   "accent2": "#ff4422",
+   "highlight": "#5aff8a",
+   "onaccent": "#0a0704"
+  },
+  "contrast": {
+   "ink_surface": 9.89,
+   "ink_bg": 10.97,
+   "muted_surface": 8.38,
+   "onaccent_accent": 14.26
+  },
+  "font": "\"Orbitron\", \"Share Tech Mono\", \"Courier New\", monospace",
+  "fontAlt": {
+   "font-lcd": "\"VT323\", \"DS-Digital\", monospace"
+  },
+  "bodySize": "13px",
+  "note": "Amber instrument panel with red WARN and green OK lamps."
+ },
+ {
+  "num": 16,
+  "slug": "16-vaporwave",
+  "id": "vaporwave",
+  "name": "Vaporwave",
+  "era": "Aesthetic",
+  "year": 2011,
+  "tags": [
+   "vaporwave",
+   "pastel",
+   "synth",
+   "neon"
+  ],
+  "path": "styles/16-vaporwave/index.html",
+  "palette": [
+   "#ff71ce",
+   "#01cdfe",
+   "#b967ff",
+   "#05ffa1",
+   "#fffb96",
+   "#1a0b2e",
+   "#ff00e5",
+   "#f8f8ff"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#1a0b2e",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#3a1458",
+    "src": "body background gradient, stop 2 of 5"
+   },
+   "ink": {
+    "value": "#f8f8ff",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#b967ff",
+    "src": "`--purple`"
+   },
+   "border": {
+    "value": "#ff00e5",
+    "src": "`--grid`"
+   },
+   "accent": {
+    "value": "#ff71ce",
+    "src": "`--pink`"
+   },
+   "accent2": {
+    "value": "#01cdfe",
+    "src": "`--cyan`"
+   },
+   "highlight": {
+    "value": "#05ffa1",
+    "src": "`--green`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 7.52:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#1a0b2e",
+   "surface": "#3a1458",
+   "ink": "#f8f8ff",
+   "muted": "#b967ff",
+   "border": "#ff00e5",
+   "accent": "#ff71ce",
+   "accent2": "#01cdfe",
+   "highlight": "#05ffa1",
+   "onaccent": "#1a0b2e"
+  },
+  "contrast": {
+   "ink_surface": 13.98,
+   "ink_bg": 17.56,
+   "muted_surface": 4.54,
+   "onaccent_accent": 7.52
+  },
+  "font": "\"Times New Roman\", \"Hiragino Mincho Pro\", serif",
+  "fontAlt": {
+   "font-jp": "\"MS PGothic\", \"Noto Serif JP\", serif"
+  },
+  "bodySize": "15px",
+  "note": "`surface` is the deep purple second stop of the sunset body gradient."
+ },
+ {
+  "num": 17,
+  "slug": "17-memphis",
+  "id": "memphis",
+  "name": "Memphis",
+  "era": "Design",
+  "year": 1981,
+  "tags": [
+   "memphis",
+   "postmodern",
+   "primary",
+   "squiggle"
+  ],
+  "path": "styles/17-memphis/index.html",
+  "palette": [
+   "#000000",
+   "#ffffff",
+   "#ff4fa3",
+   "#12c3ce",
+   "#ffe034",
+   "#ff2e2e",
+   "#2e4bff"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#ffffff",
+    "src": "`--white`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "`--black`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "accent": {
+    "value": "#ff4fa3",
+    "src": "`--pink`"
+   },
+   "accent2": {
+    "value": "#12c3ce",
+    "src": "`--teal`"
+   },
+   "highlight": {
+    "value": "#ffe034",
+    "src": "`--yellow`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 6.9:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#ffffff",
+   "surface": "#ffffff",
+   "ink": "#000000",
+   "muted": "#000000",
+   "border": "#000000",
+   "accent": "#ff4fa3",
+   "accent2": "#12c3ce",
+   "highlight": "#ffe034",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 21.0,
+   "ink_bg": 21.0,
+   "muted_surface": 21.0,
+   "onaccent_accent": 6.9
+  },
+  "font": "\"Helvetica Neue\", Helvetica, Impact, sans-serif",
+  "fontAlt": {},
+  "bodySize": "15px",
+  "note": "Primaries on white with black outlines; no grey tone by design."
+ },
+ {
+  "num": 18,
+  "slug": "18-ps1-tech",
+  "id": "ps1",
+  "name": "PS1 Tech",
+  "era": "Gaming",
+  "year": 1994,
+  "tags": [
+   "playstation",
+   "low-poly",
+   "tech",
+   "gradient"
+  ],
+  "path": "styles/18-ps1-tech/index.html",
+  "palette": [
+   "#0a0a10",
+   "#c0c0c0",
+   "#606068",
+   "#2a2a32",
+   "#00ffff",
+   "#9d4edd",
+   "#39ff14",
+   "#e8e8f0"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#0a0a10",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#2a2a32",
+    "src": "`--chrome-darker`"
+   },
+   "ink": {
+    "value": "#e8e8f0",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#c0c0c0",
+    "src": "`--chrome`"
+   },
+   "border": {
+    "value": "#606068",
+    "src": "`--chrome-dark`"
+   },
+   "accent": {
+    "value": "#00ffff",
+    "src": "`--neon-cyan`"
+   },
+   "accent2": {
+    "value": "#9d4edd",
+    "src": "`--neon-purple`"
+   },
+   "highlight": {
+    "value": "#39ff14",
+    "src": "`--neon-green`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 15.74:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#0a0a10",
+   "surface": "#2a2a32",
+   "ink": "#e8e8f0",
+   "muted": "#c0c0c0",
+   "border": "#606068",
+   "accent": "#00ffff",
+   "accent2": "#9d4edd",
+   "highlight": "#39ff14",
+   "onaccent": "#0a0a10"
+  },
+  "contrast": {
+   "ink_surface": 11.68,
+   "ink_bg": 16.2,
+   "muted_surface": 7.82,
+   "onaccent_accent": 15.74
+  },
+  "font": "\"Eurostile\", \"Rajdhani\", \"Share Tech Mono\", sans-serif",
+  "fontAlt": {
+   "font-wide": "\"Orbitron\", \"Eurostile Extended\", sans-serif"
+  },
+  "bodySize": "14px",
+  "note": ""
+ },
+ {
+  "num": 19,
+  "slug": "19-os2-warp",
+  "id": "os2warp",
+  "name": "OS/2 Warp",
+  "era": "Desktop OS",
+  "year": 1994,
+  "tags": [
+   "os2",
+   "ibm",
+   "bevel",
+   "blue"
+  ],
+  "path": "styles/19-os2-warp/index.html",
+  "palette": [
+   "#2d7a7a",
+   "#c0c0c0",
+   "#dfdfdf",
+   "#808080",
+   "#404040",
+   "#00007f",
+   "#1084d0",
+   "#000000"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#2d7a7a",
+    "src": "`--desktop`"
+   },
+   "surface": {
+    "value": "#c0c0c0",
+    "src": "`--chrome`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#404040",
+    "src": "`--chrome-darker`"
+   },
+   "border": {
+    "value": "#808080",
+    "src": "`--chrome-dark`"
+   },
+   "accent": {
+    "value": "#00007f",
+    "src": "`--titlebar`"
+   },
+   "accent2": {
+    "value": "#c41e3a",
+    "src": "`--warp-red`"
+   },
+   "highlight": {
+    "value": "#1084d0",
+    "src": "`--titlebar-2`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 8.83:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#2d7a7a",
+   "surface": "#c0c0c0",
+   "ink": "#000000",
+   "muted": "#404040",
+   "border": "#808080",
+   "accent": "#00007f",
+   "accent2": "#c41e3a",
+   "highlight": "#1084d0",
+   "onaccent": "#c0c0c0"
+  },
+  "contrast": {
+   "ink_surface": 11.54,
+   "ink_bg": 4.18,
+   "muted_surface": 5.7,
+   "onaccent_accent": 8.83
+  },
+  "font": "\"Helvetica\", \"WarpSans\", \"Arial\", sans-serif",
+  "fontAlt": {
+   "font-mono": "\"System Monospaced\", \"Courier New\", monospace"
+  },
+  "bodySize": "13px",
+  "note": ""
+ },
+ {
+  "num": 20,
+  "slug": "20-macos9-platinum",
+  "id": "macos9",
+  "name": "Mac OS 9 Platinum",
+  "era": "Desktop OS",
+  "year": 1999,
+  "tags": [
+   "mac",
+   "platinum",
+   "pinstripe",
+   "grey"
+  ],
+  "path": "styles/20-macos9-platinum/index.html",
+  "palette": [
+   "#808080",
+   "#dddddd",
+   "#f5f5f5",
+   "#c5c5c5",
+   "#858585",
+   "#555555",
+   "#a0a0a0",
+   "#3a62ab"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#808080",
+    "src": "`--desktop`"
+   },
+   "surface": {
+    "value": "#dddddd",
+    "src": "`--platinum`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#555555",
+    "src": "`--platinum-darker`"
+   },
+   "border": {
+    "value": "#858585",
+    "src": "`--platinum-dark`"
+   },
+   "accent": {
+    "value": "#3a62ab",
+    "src": "`--accent`"
+   },
+   "accent2": {
+    "value": "#a0a0a0",
+    "src": "`--stripe`"
+   },
+   "highlight": {
+    "value": "#f5f5f5",
+    "src": "`--platinum-light`"
+   },
+   "onaccent": {
+    "alias": "highlight",
+    "src": "computed: the system colour with most contrast on `accent` (highlight, 5.48:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#808080",
+   "surface": "#dddddd",
+   "ink": "#000000",
+   "muted": "#555555",
+   "border": "#858585",
+   "accent": "#3a62ab",
+   "accent2": "#a0a0a0",
+   "highlight": "#f5f5f5",
+   "onaccent": "#f5f5f5"
+  },
+  "contrast": {
+   "ink_surface": 15.46,
+   "ink_bg": 5.32,
+   "muted_surface": 5.49,
+   "onaccent_accent": 5.48
+  },
+  "font": "\"Charcoal\", \"Geneva\", \"Lucida Grande\", sans-serif",
+  "fontAlt": {
+   "font-body": "\"Geneva\", \"Lucida Grande\", sans-serif"
+  },
+  "bodySize": "12px",
+  "note": ""
+ },
+ {
+  "num": 21,
+  "slug": "21-web20-glossy",
+  "id": "web20",
+  "name": "Web 2.0 Glossy",
+  "era": "Web/UI",
+  "year": 2005,
+  "tags": [
+   "web2.0",
+   "glossy",
+   "reflection",
+   "rounded"
+  ],
+  "path": "styles/21-web20-glossy/index.html",
+  "palette": [
+   "#e8f0f7",
+   "#ffffff",
+   "#a8d0f0",
+   "#d4e8f7",
+   "#2a7ac9",
+   "#62a8e8",
+   "#1e5a9c",
+   "#ff8c1a"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#e8f0f7",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#ffffff",
+    "src": "`--panel`"
+   },
+   "ink": {
+    "value": "#2a2a2a",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#6a7a8a",
+    "src": "`--muted`"
+   },
+   "border": {
+    "value": "#a8d0f0",
+    "src": "`--sky-1`"
+   },
+   "accent": {
+    "value": "#2a7ac9",
+    "src": "`--blue`"
+   },
+   "accent2": {
+    "value": "#ff8c1a",
+    "src": "`--orange`"
+   },
+   "highlight": {
+    "value": "#7ab800",
+    "src": "`--green`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 4.44:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#e8f0f7",
+   "surface": "#ffffff",
+   "ink": "#2a2a2a",
+   "muted": "#6a7a8a",
+   "border": "#a8d0f0",
+   "accent": "#2a7ac9",
+   "accent2": "#ff8c1a",
+   "highlight": "#7ab800",
+   "onaccent": "#ffffff"
+  },
+  "contrast": {
+   "ink_surface": 14.35,
+   "ink_bg": 12.47,
+   "muted_surface": 4.41,
+   "onaccent_accent": 4.44
+  },
+  "font": "\"Lucida Grande\", \"Trebuchet MS\", \"Helvetica Neue\", Arial, sans-serif",
+  "fontAlt": {},
+  "bodySize": "13px",
+  "note": ""
+ },
+ {
+  "num": 22,
+  "slug": "22-gameboy-dmg",
+  "id": "gameboy",
+  "name": "Game Boy DMG",
+  "era": "Gaming",
+  "year": 1989,
+  "tags": [
+   "gameboy",
+   "green",
+   "lcd",
+   "4-shade"
+  ],
+  "path": "styles/22-gameboy-dmg/index.html",
+  "palette": [
+   "#b8b0a4",
+   "#8a8478",
+   "#6a6458",
+   "#2a3028",
+   "#0f380f",
+   "#306230",
+   "#8bac0f",
+   "#9bbc0f"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#b8b0a4",
+    "src": "`--shell`"
+   },
+   "surface": {
+    "value": "#9bbc0f",
+    "src": "`--lcd-3`"
+   },
+   "ink": {
+    "value": "#0f380f",
+    "src": "`--lcd-0`"
+   },
+   "muted": {
+    "value": "#306230",
+    "src": "`--lcd-1`"
+   },
+   "border": {
+    "value": "#2a3028",
+    "src": "`--screen-bezel`"
+   },
+   "accent": {
+    "value": "#6a1b7a",
+    "src": "`--btn-purple`"
+   },
+   "accent2": {
+    "value": "#d42020",
+    "src": "`--red-led`"
+   },
+   "highlight": {
+    "alias": "muted",
+    "src": "same as `muted`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 4.77:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#b8b0a4",
+   "surface": "#9bbc0f",
+   "ink": "#0f380f",
+   "muted": "#306230",
+   "border": "#2a3028",
+   "accent": "#6a1b7a",
+   "accent2": "#d42020",
+   "highlight": "#306230",
+   "onaccent": "#b8b0a4"
+  },
+  "contrast": {
+   "ink_surface": 6.02,
+   "ink_bg": 6.14,
+   "muted_surface": 3.29,
+   "onaccent_accent": 4.77
+  },
+  "font": "\"Press Start 2P\", \"VT323\", \"Courier New\", monospace",
+  "fontAlt": {
+   "font-lcd": "\"VT323\", \"Courier New\", monospace"
+  },
+  "bodySize": "18px",
+  "note": "The four DMG greens (#0f380f to #9bbc0f) are the UI; the grey shell is used as the page so the device reads as one piece. The source page itself is near-black (#1a1a22)."
+ },
+ {
+  "num": 23,
+  "slug": "23-braun-rams",
+  "id": "braun",
+  "name": "Braun / Dieter Rams",
+  "era": "Design",
+  "year": 1960,
+  "tags": [
+   "braun",
+   "functional",
+   "minimal",
+   "industrial"
+  ],
+  "path": "styles/23-braun-rams/index.html",
+  "palette": [
+   "#f4f3f0",
+   "#ffffff",
+   "#1a1a1a",
+   "#e4e3e0",
+   "#b8b7b3",
+   "#6a6965",
+   "#2a2a28",
+   "#f2642a"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#f4f3f0",
+    "src": "`--paper`"
+   },
+   "surface": {
+    "value": "#ffffff",
+    "src": "`--white`"
+   },
+   "ink": {
+    "value": "#1a1a1a",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#6a6965",
+    "src": "`--gray-3`"
+   },
+   "border": {
+    "value": "#b8b7b3",
+    "src": "`--gray-2`"
+   },
+   "accent": {
+    "value": "#f2642a",
+    "src": "`--orange`"
+   },
+   "accent2": {
+    "value": "#3a7a5a",
+    "src": "`--green`"
+   },
+   "highlight": {
+    "value": "#e4e3e0",
+    "src": "`--gray-1`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 5.5:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#f4f3f0",
+   "surface": "#ffffff",
+   "ink": "#1a1a1a",
+   "muted": "#6a6965",
+   "border": "#b8b7b3",
+   "accent": "#f2642a",
+   "accent2": "#3a7a5a",
+   "highlight": "#e4e3e0",
+   "onaccent": "#1a1a1a"
+  },
+  "contrast": {
+   "ink_surface": 17.4,
+   "ink_bg": 15.68,
+   "muted_surface": 5.5,
+   "onaccent_accent": 5.5
+  },
+  "font": "\"Akzidenz-Grotesk\", \"Helvetica Neue\", Helvetica, \"Arial\", sans-serif",
+  "fontAlt": {
+   "font-mono": "\"IBM Plex Mono\", \"Courier New\", monospace"
+  },
+  "bodySize": "14px",
+  "note": ""
+ },
+ {
+  "num": 24,
+  "slug": "24-tron-vector",
+  "id": "tron",
+  "name": "Tron Vector",
+  "era": "Sci-Fi",
+  "year": 1982,
+  "tags": [
+   "tron",
+   "vector",
+   "cyan",
+   "grid"
+  ],
+  "path": "styles/24-tron-vector/index.html",
+  "palette": [
+   "#000008",
+   "#0a1a3a",
+   "#00e4ff",
+   "#007a8a",
+   "#a0f4ff",
+   "#ff7a00",
+   "#ff2040"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#000008",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#0a1a3a",
+    "src": "`--grid`"
+   },
+   "ink": {
+    "value": "#00e4ff",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#007a8a",
+    "src": "`--cyan-dim`"
+   },
+   "border": {
+    "alias": "muted",
+    "src": "same as `muted`"
+   },
+   "accent": {
+    "value": "#ff7a00",
+    "src": "`--orange`"
+   },
+   "accent2": {
+    "value": "#ff2040",
+    "src": "`--red`"
+   },
+   "highlight": {
+    "value": "#a0f4ff",
+    "src": "`--cyan-bright`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 8.01:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#000008",
+   "surface": "#0a1a3a",
+   "ink": "#00e4ff",
+   "muted": "#007a8a",
+   "border": "#007a8a",
+   "accent": "#ff7a00",
+   "accent2": "#ff2040",
+   "highlight": "#a0f4ff",
+   "onaccent": "#000008"
+  },
+  "contrast": {
+   "ink_surface": 11.08,
+   "ink_bg": 13.49,
+   "muted_surface": 3.4,
+   "onaccent_accent": 8.01
+  },
+  "font": "\"Orbitron\", \"Eurostile\", \"Share Tech Mono\", monospace",
+  "fontAlt": {
+   "font-mono": "\"Share Tech Mono\", \"Courier New\", monospace"
+  },
+  "bodySize": "14px",
+  "note": ""
+ },
+ {
+  "num": 25,
+  "slug": "25-vhs-tracking",
+  "id": "vhs",
+  "name": "VHS Tracking",
+  "era": "Analog",
+  "year": 1980,
+  "tags": [
+   "vhs",
+   "glitch",
+   "scanline",
+   "analog"
+  ],
+  "path": "styles/25-vhs-tracking/index.html",
+  "palette": [
+   "#0a0a0a",
+   "#141014",
+   "#ff1a1a",
+   "#f4f4f4",
+   "#ffe84a",
+   "#4ae2ff",
+   "#ff2a2a",
+   "#2aff2a"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#0a0a0a",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#141014",
+    "src": "`--tape`"
+   },
+   "ink": {
+    "value": "#f4f4f4",
+    "src": "`--osd-white`"
+   },
+   "muted": {
+    "value": "#4ae2ff",
+    "src": "`--osd-cyan`"
+   },
+   "border": {
+    "alias": "muted",
+    "src": "same as `muted`"
+   },
+   "accent": {
+    "value": "#ff1a1a",
+    "src": "`--rec-red`"
+   },
+   "accent2": {
+    "value": "#ffe84a",
+    "src": "`--osd-yellow`"
+   },
+   "highlight": {
+    "value": "#ff2aff",
+    "src": "`--smpte-magenta`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 5.1:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#0a0a0a",
+   "surface": "#141014",
+   "ink": "#f4f4f4",
+   "muted": "#4ae2ff",
+   "border": "#4ae2ff",
+   "accent": "#ff1a1a",
+   "accent2": "#ffe84a",
+   "highlight": "#ff2aff",
+   "onaccent": "#0a0a0a"
+  },
+  "contrast": {
+   "ink_surface": 17.14,
+   "ink_bg": 18.0,
+   "muted_surface": 12.22,
+   "onaccent_accent": 5.1
+  },
+  "font": "\"VT323\", \"Courier New\", monospace",
+  "fontAlt": {
+   "font-osd": "\"VCR OSD Mono\", \"VT323\", \"Courier New\", monospace"
+  },
+  "bodySize": "22px",
+  "note": ""
+ },
+ {
+  "num": 26,
+  "slug": "26-risograph",
+  "id": "riso",
+  "name": "Risograph",
+  "era": "Print",
+  "year": 1986,
+  "tags": [
+   "riso",
+   "print",
+   "duotone",
+   "grain"
+  ],
+  "path": "styles/26-risograph/index.html",
+  "palette": [
+   "#f3efe4",
+   "#e6dfcb",
+   "#ff4fa5",
+   "#ffb8db",
+   "#0078b4",
+   "#6ca8d4",
+   "#f6d800",
+   "#00a03c"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#f3efe4",
+    "src": "`--paper`"
+   },
+   "surface": {
+    "value": "#e6dfcb",
+    "src": "`--paper-dark`"
+   },
+   "ink": {
+    "value": "#1a1a1a",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#0078b4",
+    "src": "`--riso-blue`"
+   },
+   "border": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "accent": {
+    "value": "#ff4fa5",
+    "src": "`--fluoro-pink`"
+   },
+   "accent2": {
+    "value": "#00a03c",
+    "src": "`--riso-green`"
+   },
+   "highlight": {
+    "value": "#f6d800",
+    "src": "`--riso-yellow`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 5.73:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#f3efe4",
+   "surface": "#e6dfcb",
+   "ink": "#1a1a1a",
+   "muted": "#0078b4",
+   "border": "#1a1a1a",
+   "accent": "#ff4fa5",
+   "accent2": "#00a03c",
+   "highlight": "#f6d800",
+   "onaccent": "#1a1a1a"
+  },
+  "contrast": {
+   "ink_surface": 13.08,
+   "ink_bg": 15.15,
+   "muted_surface": 3.63,
+   "onaccent_accent": 5.73
+  },
+  "font": "\"Helvetica Neue\", \"Akzidenz-Grotesk\", \"Arial\", sans-serif",
+  "fontAlt": {
+   "font-serif": "\"Times New Roman\", \"Garamond\", serif"
+  },
+  "bodySize": "15px",
+  "note": "Two-ink print: text in black, secondary text in riso blue."
+ },
+ {
+  "num": 27,
+  "slug": "27-ibm-3270",
+  "id": "ibm3270",
+  "name": "IBM 3270 Mainframe",
+  "era": "Terminal",
+  "year": 1971,
+  "tags": [
+   "ibm",
+   "mainframe",
+   "terminal",
+   "cics"
+  ],
+  "path": "styles/27-ibm-3270/index.html",
+  "palette": [
+   "#000000",
+   "#00d4d4",
+   "#00d400",
+   "#e4e4e4",
+   "#ff3030",
+   "#ffe84a",
+   "#4a9cff",
+   "#ff7aa8"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#0a0a0a",
+    "src": "body background `#0a0a0a`"
+   },
+   "surface": {
+    "value": "#000000",
+    "src": "`--bg`"
+   },
+   "ink": {
+    "value": "#00d400",
+    "src": "`--green`"
+   },
+   "muted": {
+    "value": "#00d4d4",
+    "src": "`--turquoise`"
+   },
+   "border": {
+    "value": "#005a5a",
+    "src": "`--dim`"
+   },
+   "accent": {
+    "value": "#ffe84a",
+    "src": "`--yellow`"
+   },
+   "accent2": {
+    "value": "#ff7aa8",
+    "src": "`--pink`"
+   },
+   "highlight": {
+    "value": "#e4e4e4",
+    "src": "`--white`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 16.89:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#0a0a0a",
+   "surface": "#000000",
+   "ink": "#00d400",
+   "muted": "#00d4d4",
+   "border": "#005a5a",
+   "accent": "#ffe84a",
+   "accent2": "#ff7aa8",
+   "highlight": "#e4e4e4",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 10.42,
+   "ink_bg": 9.82,
+   "muted_surface": 11.37,
+   "onaccent_accent": 16.89
+  },
+  "font": "\"IBM 3270\", \"PxPlus 3270\", \"VT323\", \"Courier New\", monospace",
+  "fontAlt": {},
+  "bodySize": "18px",
+  "note": ""
+ },
+ {
+  "num": 28,
+  "slug": "28-nethack-ascii",
+  "id": "nethack",
+  "name": "NetHack ASCII",
+  "era": "Terminal",
+  "year": 1987,
+  "tags": [
+   "ascii",
+   "roguelike",
+   "terminal",
+   "mono"
+  ],
+  "path": "styles/28-nethack-ascii/index.html",
+  "palette": [
+   "#000000",
+   "#a0a0a0",
+   "#707070",
+   "#ffff00",
+   "#ff4040",
+   "#40ff40",
+   "#6080ff",
+   "#ff40ff"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#000000",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#e4e4e4",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#a0a0a0",
+    "src": "`--wall`"
+   },
+   "border": {
+    "value": "#606060",
+    "src": "`--dim`"
+   },
+   "accent": {
+    "value": "#ffff00",
+    "src": "`--player`"
+   },
+   "accent2": {
+    "value": "#ff4040",
+    "src": "`--monster-red`"
+   },
+   "highlight": {
+    "value": "#40e4e4",
+    "src": "`--item-cyan`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 19.56:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#000000",
+   "surface": "#000000",
+   "ink": "#e4e4e4",
+   "muted": "#a0a0a0",
+   "border": "#606060",
+   "accent": "#ffff00",
+   "accent2": "#ff4040",
+   "highlight": "#40e4e4",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 16.52,
+   "ink_bg": 16.52,
+   "muted_surface": 8.03,
+   "onaccent_accent": 19.56
+  },
+  "font": "\"Px437 IBM VGA\", \"Perfect DOS VGA 437\", \"VT323\", \"Courier New\", monospace",
+  "fontAlt": {},
+  "bodySize": "18px",
+  "note": ""
+ },
+ {
+  "num": 29,
+  "slug": "29-templeos",
+  "id": "templeos",
+  "name": "TempleOS",
+  "era": "Desktop OS",
+  "year": 2013,
+  "tags": [
+   "templeos",
+   "16-color",
+   "vga",
+   "mono"
+  ],
+  "path": "styles/29-templeos/index.html",
+  "palette": [
+   "#0000aa",
+   "#ffffff",
+   "#ff0000",
+   "#ffff00",
+   "#00ff00",
+   "#00ffff",
+   "#ff00ff",
+   "#ffaa00"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#0000aa",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#ffffff",
+    "src": "`--text`"
+   },
+   "muted": {
+    "value": "#00ffff",
+    "src": "`--cyan`"
+   },
+   "border": {
+    "alias": "muted",
+    "src": "same as `muted`"
+   },
+   "accent": {
+    "value": "#ffff00",
+    "src": "`--yellow`"
+   },
+   "accent2": {
+    "value": "#ff0000",
+    "src": "`--red`"
+   },
+   "highlight": {
+    "value": "#00ff00",
+    "src": "`--green`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 12.37:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#0000aa",
+   "surface": "#0000aa",
+   "ink": "#ffffff",
+   "muted": "#00ffff",
+   "border": "#00ffff",
+   "accent": "#ffff00",
+   "accent2": "#ff0000",
+   "highlight": "#00ff00",
+   "onaccent": "#0000aa"
+  },
+  "contrast": {
+   "ink_surface": 13.29,
+   "ink_bg": 13.29,
+   "muted_surface": 10.6,
+   "onaccent_accent": 12.37
+  },
+  "font": "\"Px437 IBM VGA 8x16\", \"Perfect DOS VGA 437\", \"VT323\", \"Courier New\", monospace",
+  "fontAlt": {},
+  "bodySize": "18px",
+  "note": "16-colour VGA; no grey, so secondary text is cyan."
+ },
+ {
+  "num": 30,
+  "slug": "30-bbs-ansi",
+  "id": "bbsansi",
+  "name": "BBS ANSI Art",
+  "era": "Terminal",
+  "year": 1989,
+  "tags": [
+   "bbs",
+   "ansi",
+   "block",
+   "16-color"
+  ],
+  "path": "styles/30-bbs-ansi/index.html",
+  "palette": [
+   "#000000",
+   "#aa0000",
+   "#ff5555",
+   "#00aa00",
+   "#55ff55",
+   "#aa5500",
+   "#ffff55",
+   "#0000aa"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#000000",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#ffffff",
+    "src": "`--white-hi`"
+   },
+   "muted": {
+    "value": "#aaaaaa",
+    "src": "`--white`"
+   },
+   "border": {
+    "alias": "muted",
+    "src": "same as `muted`"
+   },
+   "accent": {
+    "value": "#55ffff",
+    "src": "`--cyan-hi`"
+   },
+   "accent2": {
+    "value": "#ff55ff",
+    "src": "`--magenta-hi`"
+   },
+   "highlight": {
+    "value": "#ffff55",
+    "src": "`--yellow-hi`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 17.13:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#000000",
+   "surface": "#000000",
+   "ink": "#ffffff",
+   "muted": "#aaaaaa",
+   "border": "#aaaaaa",
+   "accent": "#55ffff",
+   "accent2": "#ff55ff",
+   "highlight": "#ffff55",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 21.0,
+   "ink_bg": 21.0,
+   "muted_surface": 9.04,
+   "onaccent_accent": 17.13
+  },
+  "font": "\"Px437 IBM VGA 8x16\", \"Perfect DOS VGA 437\", \"VT323\", \"Courier New\", monospace",
+  "fontAlt": {},
+  "bodySize": "18px",
+  "note": ""
+ },
+ {
+  "num": 31,
+  "slug": "31-midnight-commander",
+  "id": "mc",
+  "name": "Midnight Commander",
+  "era": "Terminal",
+  "year": 1994,
+  "tags": [
+   "tui",
+   "blue",
+   "filemanager",
+   "ncurses"
+  ],
+  "path": "styles/31-midnight-commander/index.html",
+  "palette": [
+   "#0000aa",
+   "#aaaaaa",
+   "#ffffff",
+   "#ffff55",
+   "#55ffff",
+   "#00aaaa",
+   "#000000",
+   "#55ff55"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#000000",
+    "src": "body background `#000`"
+   },
+   "surface": {
+    "value": "#0000aa",
+    "src": "`--panel`"
+   },
+   "ink": {
+    "value": "#aaaaaa",
+    "src": "`--text`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "value": "#aaaaaa",
+    "src": "`--panel-border`"
+   },
+   "accent": {
+    "value": "#00aaaa",
+    "src": "`--selected-bg`"
+   },
+   "accent2": {
+    "value": "#ffff55",
+    "src": "`--yellow`"
+   },
+   "highlight": {
+    "value": "#ffffff",
+    "src": "`--text-hi`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 7.33:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#000000",
+   "surface": "#0000aa",
+   "ink": "#aaaaaa",
+   "muted": "#aaaaaa",
+   "border": "#aaaaaa",
+   "accent": "#00aaaa",
+   "accent2": "#ffff55",
+   "highlight": "#ffffff",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 5.72,
+   "ink_bg": 9.04,
+   "muted_surface": 5.72,
+   "onaccent_accent": 7.33
+  },
+  "font": "\"Px437 IBM VGA 8x16\", \"Perfect DOS VGA 437\", \"VT323\", \"Courier New\", monospace",
+  "fontAlt": {},
+  "bodySize": "18px",
+  "note": "Grey-on-blue panels; the palette has no dimmer text tone, so `muted` = `ink`."
+ },
+ {
+  "num": 32,
+  "slug": "32-matrix-rain",
+  "id": "matrix",
+  "name": "Matrix Rain",
+  "era": "Sci-Fi",
+  "year": 1999,
+  "tags": [
+   "matrix",
+   "green",
+   "code",
+   "rain"
+  ],
+  "path": "styles/32-matrix-rain/index.html",
+  "palette": [
+   "#000000",
+   "#003b00",
+   "#00a830",
+   "#62ff9d",
+   "#ccffcc",
+   "#ff3860"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#000000",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#00a830",
+    "src": "`--mx`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "value": "#003b00",
+    "src": "`--mx-dim`"
+   },
+   "accent": {
+    "value": "#62ff9d",
+    "src": "`--mx-hi`"
+   },
+   "accent2": {
+    "value": "#ff3860",
+    "src": "`--warn`"
+   },
+   "highlight": {
+    "value": "#ccffcc",
+    "src": "`--mx-white`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 16.31:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#000000",
+   "surface": "#000000",
+   "ink": "#00a830",
+   "muted": "#00a830",
+   "border": "#003b00",
+   "accent": "#62ff9d",
+   "accent2": "#ff3860",
+   "highlight": "#ccffcc",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 6.64,
+   "ink_bg": 6.64,
+   "muted_surface": 6.64,
+   "onaccent_accent": 16.31
+  },
+  "font": "\"Matrix Code NFI\", \"MS Mincho\", \"MS Gothic\", \"Courier New\", monospace",
+  "fontAlt": {},
+  "bodySize": null,
+  "note": "The dim green (#003b00) is trail colour only (1.7:1); `muted` = `ink`."
+ },
+ {
+  "num": 33,
+  "slug": "33-btop-meters",
+  "id": "btop",
+  "name": "btop Meters",
+  "era": "Terminal",
+  "year": 2021,
+  "tags": [
+   "tui",
+   "monitor",
+   "gradient",
+   "meters"
+  ],
+  "path": "styles/33-btop-meters/index.html",
+  "palette": [
+   "#131424",
+   "#1a1c30",
+   "#3b3e5e",
+   "#e8ecff",
+   "#7a82b0",
+   "#00e4ff",
+   "#6de37a",
+   "#e5e56a"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#131424",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#1a1c30",
+    "src": "`--panel-bg`"
+   },
+   "ink": {
+    "value": "#e8ecff",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#7a82b0",
+    "src": "`--muted`"
+   },
+   "border": {
+    "value": "#3b3e5e",
+    "src": "`--panel-border`"
+   },
+   "accent": {
+    "value": "#00e4ff",
+    "src": "`--accent`"
+   },
+   "accent2": {
+    "value": "#a073ff",
+    "src": "`--mem`"
+   },
+   "highlight": {
+    "value": "#6de37a",
+    "src": "`--cpu-1`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 11.74:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#131424",
+   "surface": "#1a1c30",
+   "ink": "#e8ecff",
+   "muted": "#7a82b0",
+   "border": "#3b3e5e",
+   "accent": "#00e4ff",
+   "accent2": "#a073ff",
+   "highlight": "#6de37a",
+   "onaccent": "#131424"
+  },
+  "contrast": {
+   "ink_surface": 14.27,
+   "ink_bg": 15.5,
+   "muted_surface": 4.51,
+   "onaccent_accent": 11.74
+  },
+  "font": "\"Hack\", \"JetBrains Mono\", \"Cascadia Code\", \"Fira Code\", \"Consolas\", monospace",
+  "fontAlt": {},
+  "bodySize": "14px",
+  "note": ""
+ },
+ {
+  "num": 34,
+  "slug": "34-c64-basic",
+  "id": "c64",
+  "name": "Commodore 64 BASIC",
+  "era": "Terminal",
+  "year": 1982,
+  "tags": [
+   "c64",
+   "blue",
+   "petscii",
+   "basic"
+  ],
+  "path": "styles/34-c64-basic/index.html",
+  "palette": [
+   "#9692d9",
+   "#443ec4",
+   "#2e2898",
+   "#a8a0ff",
+   "#c8c0ff",
+   "#ffffff",
+   "#e04040",
+   "#4aff4a"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#9692d9",
+    "src": "`--border`"
+   },
+   "surface": {
+    "value": "#443ec4",
+    "src": "`--bg`"
+   },
+   "ink": {
+    "value": "#c8c0ff",
+    "src": "`--text-hi`"
+   },
+   "muted": {
+    "value": "#a8a0ff",
+    "src": "`--text`"
+   },
+   "border": {
+    "value": "#2e2898",
+    "src": "`--bg-dark`"
+   },
+   "accent": {
+    "value": "#4afaff",
+    "src": "`--cyan`"
+   },
+   "accent2": {
+    "value": "#fff84a",
+    "src": "`--yellow`"
+   },
+   "highlight": {
+    "value": "#ffffff",
+    "src": "`--white`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 6.01:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#9692d9",
+   "surface": "#443ec4",
+   "ink": "#c8c0ff",
+   "muted": "#a8a0ff",
+   "border": "#2e2898",
+   "accent": "#4afaff",
+   "accent2": "#fff84a",
+   "highlight": "#ffffff",
+   "onaccent": "#443ec4"
+  },
+  "contrast": {
+   "ink_surface": 4.55,
+   "ink_bg": 1.68,
+   "muted_surface": 3.34,
+   "onaccent_accent": 6.01
+  },
+  "font": "\"C64 Pro\", \"Commodore 64\", \"Px437 PETSCII\", \"Press Start 2P\", monospace",
+  "fontAlt": {},
+  "bodySize": null,
+  "note": "Page is the light-blue C64 border; the dark-blue screen is the surface."
+ },
+ {
+  "num": 35,
+  "slug": "35-flat-2013",
+  "id": "flat2013",
+  "name": "Flat Design 2013",
+  "era": "Web/UI",
+  "year": 2013,
+  "tags": [
+   "flat",
+   "ios7",
+   "minimal",
+   "bright"
+  ],
+  "path": "styles/35-flat-2013/index.html",
+  "palette": [
+   "#ecf0f1",
+   "#1abc9c",
+   "#2ecc71",
+   "#3498db",
+   "#9b59b6",
+   "#34495e",
+   "#f1c40f",
+   "#e67e22"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#ecf0f1",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#ffffff",
+    "src": "white card `background: #fff`"
+   },
+   "ink": {
+    "value": "#34495e",
+    "src": "`--dark`"
+   },
+   "muted": {
+    "value": "#95a5a6",
+    "src": "`--gray`"
+   },
+   "border": {
+    "value": "#bdc3c7",
+    "src": "`--silver`"
+   },
+   "accent": {
+    "value": "#1abc9c",
+    "src": "`--turq`"
+   },
+   "accent2": {
+    "value": "#3498db",
+    "src": "`--blue`"
+   },
+   "highlight": {
+    "value": "#f1c40f",
+    "src": "`--yellow`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 3.86:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#ecf0f1",
+   "surface": "#ffffff",
+   "ink": "#34495e",
+   "muted": "#95a5a6",
+   "border": "#bdc3c7",
+   "accent": "#1abc9c",
+   "accent2": "#3498db",
+   "highlight": "#f1c40f",
+   "onaccent": "#34495e"
+  },
+  "contrast": {
+   "ink_surface": 9.29,
+   "ink_bg": 8.1,
+   "muted_surface": 2.56,
+   "onaccent_accent": 3.86
+  },
+  "font": "\"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+  "fontAlt": {},
+  "bodySize": "15px",
+  "note": "Flat grey caption text (#95a5a6) fails on both grounds, as it did in 2013. Keep it for large labels only."
+ },
+ {
+  "num": 36,
+  "slug": "36-glassmorphism",
+  "id": "glass",
+  "name": "Glassmorphism",
+  "era": "Web/UI",
+  "year": 2020,
+  "tags": [
+   "glass",
+   "blur",
+   "frosted",
+   "modern"
+  ],
+  "path": "styles/36-glassmorphism/index.html",
+  "palette": [
+   "#ffffff",
+   "#ff6ec4",
+   "#7873f5"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#302b63",
+    "src": "body background gradient, stop 2 of 3"
+   },
+   "surface": {
+    "value": "rgba(255,255,255,0.15)",
+    "src": "`--glass-bg`"
+   },
+   "ink": {
+    "value": "#ffffff",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "rgba(255,255,255,0.7)",
+    "src": "`--muted`"
+   },
+   "border": {
+    "value": "rgba(255,255,255,0.3)",
+    "src": "`--glass-border`"
+   },
+   "accent": {
+    "value": "#ff6ec4",
+    "src": "`--accent`"
+   },
+   "accent2": {
+    "value": "#7873f5",
+    "src": "`--accent-2`"
+   },
+   "highlight": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 5.01:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#302b63",
+   "surface": "rgba(255,255,255,0.15)",
+   "ink": "#ffffff",
+   "muted": "rgba(255,255,255,0.7)",
+   "border": "rgba(255,255,255,0.3)",
+   "accent": "#ff6ec4",
+   "accent2": "#7873f5",
+   "highlight": "#ffffff",
+   "onaccent": "#302b63"
+  },
+  "contrast": {
+   "ink_surface": 8.02,
+   "ink_bg": 12.72,
+   "muted_surface": 4.91,
+   "onaccent_accent": 5.01
+  },
+  "font": "\"Inter\", \"SF Pro Display\", \"Segoe UI\", system-ui, sans-serif",
+  "fontAlt": {},
+  "bodySize": "15px",
+  "note": ""
+ },
+ {
+  "num": 37,
+  "slug": "37-neumorphism",
+  "id": "neumorph",
+  "name": "Neumorphism",
+  "era": "Web/UI",
+  "year": 2020,
+  "tags": [
+   "neumorph",
+   "soft",
+   "shadow",
+   "mono"
+  ],
+  "path": "styles/37-neumorphism/index.html",
+  "palette": [
+   "#e0e5ec",
+   "#4a5568",
+   "#8a94a6",
+   "#6c8cff",
+   "#a3b1c6",
+   "#ffffff"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#e0e5ec",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#4a5568",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#8a94a6",
+    "src": "`--muted`"
+   },
+   "border": {
+    "value": "#a3b1c6",
+    "src": "`--shadow-dark`"
+   },
+   "accent": {
+    "value": "#6c8cff",
+    "src": "`--accent`"
+   },
+   "accent2": {
+    "alias": "border",
+    "src": "same as `border`"
+   },
+   "highlight": {
+    "value": "#ffffff",
+    "src": "`--shadow-light`"
+   },
+   "onaccent": {
+    "alias": "highlight",
+    "src": "computed: the system colour with most contrast on `accent` (highlight, 3.07:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#e0e5ec",
+   "surface": "#e0e5ec",
+   "ink": "#4a5568",
+   "muted": "#8a94a6",
+   "border": "#a3b1c6",
+   "accent": "#6c8cff",
+   "accent2": "#a3b1c6",
+   "highlight": "#ffffff",
+   "onaccent": "#ffffff"
+  },
+  "contrast": {
+   "ink_surface": 5.94,
+   "ink_bg": 5.94,
+   "muted_surface": 2.42,
+   "onaccent_accent": 3.07
+  },
+  "font": "\"Inter\", \"SF Pro\", \"Segoe UI\", system-ui, sans-serif",
+  "fontAlt": {},
+  "bodySize": "15px",
+  "note": "The known neumorphism problem: soft grey text measures under 3:1. Surfaces equal the background and differ only by shadow."
+ },
+ {
+  "num": 38,
+  "slug": "38-blueprint-cad",
+  "id": "blueprint",
+  "name": "Blueprint / CAD",
+  "era": "Technical",
+  "year": 1980,
+  "tags": [
+   "blueprint",
+   "cad",
+   "grid",
+   "cyan"
+  ],
+  "path": "styles/38-blueprint-cad/index.html",
+  "palette": [
+   "#0d3a6b",
+   "#082852",
+   "#c0daf4",
+   "#6892c4",
+   "#eaf2fb",
+   "#ff6b6b",
+   "#ffe066"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#0d3a6b",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#082852",
+    "src": "`--bg-dark`"
+   },
+   "ink": {
+    "value": "#eaf2fb",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#6892c4",
+    "src": "`--line-dim`"
+   },
+   "border": {
+    "value": "#c0daf4",
+    "src": "`--line`"
+   },
+   "accent": {
+    "value": "#ffe066",
+    "src": "`--yellow`"
+   },
+   "accent2": {
+    "value": "#ff6b6b",
+    "src": "`--red`"
+   },
+   "highlight": {
+    "alias": "border",
+    "src": "same as `border`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 11.22:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#0d3a6b",
+   "surface": "#082852",
+   "ink": "#eaf2fb",
+   "muted": "#6892c4",
+   "border": "#c0daf4",
+   "accent": "#ffe066",
+   "accent2": "#ff6b6b",
+   "highlight": "#c0daf4",
+   "onaccent": "#082852"
+  },
+  "contrast": {
+   "ink_surface": 12.95,
+   "ink_bg": 10.13,
+   "muted_surface": 4.53,
+   "onaccent_accent": 11.22
+  },
+  "font": "\"Helvetica Neue\", Arial, sans-serif",
+  "fontAlt": {
+   "font-mono": "\"IBM Plex Mono\", \"Courier New\", monospace"
+  },
+  "bodySize": "13px",
+  "note": ""
+ },
+ {
+  "num": 39,
+  "slug": "39-claymorphism",
+  "id": "clay",
+  "name": "Claymorphism",
+  "era": "Web/UI",
+  "year": 2021,
+  "tags": [
+   "clay",
+   "3d",
+   "soft",
+   "playful"
+  ],
+  "path": "styles/39-claymorphism/index.html",
+  "palette": [
+   "#f0e9ff",
+   "#3a2e5c",
+   "#7c6ba8",
+   "#ffb3d1",
+   "#c9a8ff",
+   "#9ec8ff",
+   "#a8f0d0",
+   "#ffe58a"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#f0e9ff",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#ffffff",
+    "src": "white card `background: #fff`"
+   },
+   "ink": {
+    "value": "#3a2e5c",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#7c6ba8",
+    "src": "`--muted`"
+   },
+   "border": {
+    "value": "#c9a8ff",
+    "src": "`--purple`"
+   },
+   "accent": {
+    "value": "#ffb3d1",
+    "src": "`--pink`"
+   },
+   "accent2": {
+    "value": "#9ec8ff",
+    "src": "`--blue`"
+   },
+   "highlight": {
+    "value": "#a8f0d0",
+    "src": "`--mint`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 7.32:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#f0e9ff",
+   "surface": "#ffffff",
+   "ink": "#3a2e5c",
+   "muted": "#7c6ba8",
+   "border": "#c9a8ff",
+   "accent": "#ffb3d1",
+   "accent2": "#9ec8ff",
+   "highlight": "#a8f0d0",
+   "onaccent": "#3a2e5c"
+  },
+  "contrast": {
+   "ink_surface": 12.17,
+   "ink_bg": 10.32,
+   "muted_surface": 4.64,
+   "onaccent_accent": 7.32
+  },
+  "font": "\"Nunito\", \"SF Pro Rounded\", \"Helvetica Neue\", system-ui, sans-serif",
+  "fontAlt": {},
+  "bodySize": "15px",
+  "note": ""
+ },
+ {
+  "num": 40,
+  "slug": "40-brutalist-web",
+  "id": "brutalist",
+  "name": "Brutalist Web",
+  "era": "Web/UI",
+  "year": 2016,
+  "tags": [
+   "brutalist",
+   "raw",
+   "mono",
+   "highcontrast"
+  ],
+  "path": "styles/40-brutalist-web/index.html",
+  "palette": [
+   "#ffffff",
+   "#000000",
+   "#0000ee",
+   "#551a8b",
+   "#ff0000",
+   "#c0c0c0",
+   "#e0e0e0",
+   "#f0f0f0"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#ffffff",
+    "src": "body background `#ffffff`"
+   },
+   "surface": {
+    "value": "#e0e0e0",
+    "src": "`th { background: #e0e0e0 }`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "body `color: #000000`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "accent": {
+    "value": "#0000ee",
+    "src": "link blue `#0000ee`"
+   },
+   "accent2": {
+    "value": "#551a8b",
+    "src": "visited link `#551a8b`"
+   },
+   "highlight": {
+    "value": "#ffff00",
+    "src": "`.warn { background: #ffff00 }`"
+   },
+   "onaccent": {
+    "alias": "bg",
+    "src": "computed: the system colour with most contrast on `accent` (bg, 9.4:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#ffffff",
+   "surface": "#e0e0e0",
+   "ink": "#000000",
+   "muted": "#000000",
+   "border": "#000000",
+   "accent": "#0000ee",
+   "accent2": "#551a8b",
+   "highlight": "#ffff00",
+   "onaccent": "#ffffff"
+  },
+  "contrast": {
+   "ink_surface": 15.91,
+   "ink_bg": 21.0,
+   "muted_surface": 15.91,
+   "onaccent_accent": 9.4
+  },
+  "font": "\"Times New Roman\", Times, serif",
+  "fontAlt": {},
+  "bodySize": "16px",
+  "note": "Raw HTML: values are the few literal colours in the source file. `a:hover` red (#ff0000) is not mapped."
+ },
+ {
+  "num": 41,
+  "slug": "41-swiss-intl",
+  "id": "swiss",
+  "name": "Swiss Style",
+  "era": "Design",
+  "year": 1950,
+  "tags": [
+   "swiss",
+   "grid",
+   "helvetica",
+   "minimal"
+  ],
+  "path": "styles/41-swiss-intl/index.html",
+  "palette": [
+   "#f4f3ee",
+   "#0a0a0a",
+   "#e63946",
+   "#6a6a6a"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#f4f3ee",
+    "src": "`--paper`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#0a0a0a",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#6a6a6a",
+    "src": "`--muted`"
+   },
+   "border": {
+    "value": "#0a0a0a",
+    "src": "`--line`"
+   },
+   "accent": {
+    "value": "#e63946",
+    "src": "`--red`"
+   },
+   "accent2": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "highlight": {
+    "alias": "accent",
+    "src": "same as `accent`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 4.75:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#f4f3ee",
+   "surface": "#f4f3ee",
+   "ink": "#0a0a0a",
+   "muted": "#6a6a6a",
+   "border": "#0a0a0a",
+   "accent": "#e63946",
+   "accent2": "#0a0a0a",
+   "highlight": "#e63946",
+   "onaccent": "#0a0a0a"
+  },
+  "contrast": {
+   "ink_surface": 17.82,
+   "ink_bg": 17.82,
+   "muted_surface": 4.87,
+   "onaccent_accent": 4.75
+  },
+  "font": "\"Helvetica Neue\", \"Akzidenz-Grotesk\", Helvetica, Arial, sans-serif",
+  "fontAlt": {},
+  "bodySize": "15px",
+  "note": "Black, paper and one red by design."
+ },
+ {
+  "num": 42,
+  "slug": "42-bauhaus",
+  "id": "bauhaus",
+  "name": "Bauhaus",
+  "era": "Design",
+  "year": 1919,
+  "tags": [
+   "bauhaus",
+   "primary",
+   "geometric",
+   "modernist"
+  ],
+  "path": "styles/42-bauhaus/index.html",
+  "palette": [
+   "#f0ebe0",
+   "#0a0a0a",
+   "#d32027",
+   "#f5c518",
+   "#1c4fb5"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#f0ebe0",
+    "src": "`--paper`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#0a0a0a",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "accent": {
+    "value": "#d32027",
+    "src": "`--red`"
+   },
+   "accent2": {
+    "value": "#1c4fb5",
+    "src": "`--blue`"
+   },
+   "highlight": {
+    "value": "#f5c518",
+    "src": "`--yellow`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 4.41:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#f0ebe0",
+   "surface": "#f0ebe0",
+   "ink": "#0a0a0a",
+   "muted": "#0a0a0a",
+   "border": "#0a0a0a",
+   "accent": "#d32027",
+   "accent2": "#1c4fb5",
+   "highlight": "#f5c518",
+   "onaccent": "#f0ebe0"
+  },
+  "contrast": {
+   "ink_surface": 16.65,
+   "ink_bg": 16.65,
+   "muted_surface": 16.65,
+   "onaccent_accent": 4.41
+  },
+  "font": "\"Futura\", \"Futura PT\", \"Century Gothic\", \"Avenir Next\", sans-serif",
+  "fontAlt": {},
+  "bodySize": "15px",
+  "note": "Three primaries and black on paper; no grey by design."
+ },
+ {
+  "num": 43,
+  "slug": "43-pop-art-lichtenstein",
+  "id": "popart",
+  "name": "Pop Art",
+  "era": "Art",
+  "year": 1960,
+  "tags": [
+   "popart",
+   "halftone",
+   "primary",
+   "comic"
+  ],
+  "path": "styles/43-pop-art-lichtenstein/index.html",
+  "palette": [
+   "#fffef8",
+   "#0a0a0a",
+   "#ed1c24",
+   "#ffde00",
+   "#1b4ea0",
+   "#ffd6c7"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#fffef8",
+    "src": "`--paper`"
+   },
+   "surface": {
+    "value": "#ffd6c7",
+    "src": "`--skin`"
+   },
+   "ink": {
+    "value": "#0a0a0a",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "accent": {
+    "value": "#ed1c24",
+    "src": "`--red`"
+   },
+   "accent2": {
+    "value": "#1b4ea0",
+    "src": "`--blue`"
+   },
+   "highlight": {
+    "value": "#ffde00",
+    "src": "`--yellow`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 4.52:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#fffef8",
+   "surface": "#ffd6c7",
+   "ink": "#0a0a0a",
+   "muted": "#0a0a0a",
+   "border": "#0a0a0a",
+   "accent": "#ed1c24",
+   "accent2": "#1b4ea0",
+   "highlight": "#ffde00",
+   "onaccent": "#0a0a0a"
+  },
+  "contrast": {
+   "ink_surface": 14.8,
+   "ink_bg": 19.59,
+   "muted_surface": 14.8,
+   "onaccent_accent": 4.52
+  },
+  "font": "\"Bungee\", \"Impact\", \"Arial Black\", sans-serif",
+  "fontAlt": {
+   "font-serif": "\"Courier New\", monospace"
+  },
+  "bodySize": "15px",
+  "note": ""
+ },
+ {
+  "num": 44,
+  "slug": "44-op-art",
+  "id": "opart",
+  "name": "Op Art",
+  "era": "Art",
+  "year": 1964,
+  "tags": [
+   "opart",
+   "bw",
+   "illusion",
+   "pattern"
+  ],
+  "path": "styles/44-op-art/index.html",
+  "palette": [
+   "#0a0a0a",
+   "#f5f5f5",
+   "#ec1e23"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#f5f5f5",
+    "src": "`--white`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#0a0a0a",
+    "src": "`--black`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "accent": {
+    "value": "#ec1e23",
+    "src": "`--red`"
+   },
+   "accent2": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "highlight": {
+    "alias": "accent",
+    "src": "same as `accent`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 4.5:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#f5f5f5",
+   "surface": "#f5f5f5",
+   "ink": "#0a0a0a",
+   "muted": "#0a0a0a",
+   "border": "#0a0a0a",
+   "accent": "#ec1e23",
+   "accent2": "#0a0a0a",
+   "highlight": "#ec1e23",
+   "onaccent": "#0a0a0a"
+  },
+  "contrast": {
+   "ink_surface": 18.16,
+   "ink_bg": 18.16,
+   "muted_surface": 18.16,
+   "onaccent_accent": 4.5
+  },
+  "font": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+  "fontAlt": {},
+  "bodySize": "14px",
+  "note": "Black, white and one red by design."
+ },
+ {
+  "num": 45,
+  "slug": "45-hypnagogic",
+  "id": "hypnagogic",
+  "name": "Hypnagogic",
+  "era": "Aesthetic",
+  "year": 2015,
+  "tags": [
+   "dreamy",
+   "gradient",
+   "surreal",
+   "soft"
+  ],
+  "path": "styles/45-hypnagogic/index.html",
+  "palette": [
+   "#dcc89a",
+   "#c89050",
+   "#e8d8b0",
+   "#fff4c8",
+   "#6a5530",
+   "#2a2418",
+   "#8a7a54",
+   "#3d5a80"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#dcc89a",
+    "src": "`--wall`"
+   },
+   "surface": {
+    "value": "#e8d8b0",
+    "src": "`--ceiling`"
+   },
+   "ink": {
+    "value": "#2a2418",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#8a7a54",
+    "src": "`--faded`"
+   },
+   "border": {
+    "value": "#6a5530",
+    "src": "`--shadow`"
+   },
+   "accent": {
+    "value": "#3d5a80",
+    "src": "`--sign`"
+   },
+   "accent2": {
+    "value": "#c44536",
+    "src": "`--exit`"
+   },
+   "highlight": {
+    "value": "#fff4c8",
+    "src": "`--fluor`"
+   },
+   "onaccent": {
+    "alias": "highlight",
+    "src": "computed: the system colour with most contrast on `accent` (highlight, 6.4:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#dcc89a",
+   "surface": "#e8d8b0",
+   "ink": "#2a2418",
+   "muted": "#8a7a54",
+   "border": "#6a5530",
+   "accent": "#3d5a80",
+   "accent2": "#c44536",
+   "highlight": "#fff4c8",
+   "onaccent": "#fff4c8"
+  },
+  "contrast": {
+   "ink_surface": 10.91,
+   "ink_bg": 9.36,
+   "muted_surface": 2.98,
+   "onaccent_accent": 6.4
+  },
+  "font": "\"Times New Roman\", \"Georgia\", serif",
+  "fontAlt": {
+   "font-hand": "\"Comic Sans MS\", cursive"
+  },
+  "bodySize": "15px",
+  "note": ""
+ },
+ {
+  "num": 46,
+  "slug": "46-monochrome-zen",
+  "id": "zen",
+  "name": "Monochrome Zen",
+  "era": "Design",
+  "year": 2010,
+  "tags": [
+   "mono",
+   "zen",
+   "minimal",
+   "calm"
+  ],
+  "path": "styles/46-monochrome-zen/index.html",
+  "palette": [
+   "#fafaf7",
+   "#0a0a0a"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#fafaf7",
+    "src": "`--paper`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#0a0a0a",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "value": "rgba(10,10,10,0.15)",
+    "src": "`--rule`"
+   },
+   "accent": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "accent2": {
+    "alias": "border",
+    "src": "same as `border`"
+   },
+   "highlight": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 18.93:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#fafaf7",
+   "surface": "#fafaf7",
+   "ink": "#0a0a0a",
+   "muted": "#0a0a0a",
+   "border": "rgba(10,10,10,0.15)",
+   "accent": "#0a0a0a",
+   "accent2": "rgba(10,10,10,0.15)",
+   "highlight": "#fafaf7",
+   "onaccent": "#fafaf7"
+  },
+  "contrast": {
+   "ink_surface": 18.93,
+   "ink_bg": 18.93,
+   "muted_surface": 18.93,
+   "onaccent_accent": 18.93
+  },
+  "font": "\"S\u00f6hne\", \"Inter\", \"Helvetica Neue\", sans-serif",
+  "fontAlt": {
+   "font-serif": "\"Lyon\", \"Times New Roman\", Garamond, serif"
+  },
+  "bodySize": "17px",
+  "note": "Monochrome by design; the only non-ink value is the 15% hairline."
+ },
+ {
+  "num": 47,
+  "slug": "47-default-browser",
+  "id": "browser",
+  "name": "Default Browser",
+  "era": "Web",
+  "year": 1994,
+  "tags": [
+   "html",
+   "unstyled",
+   "timesnewroman",
+   "default"
+  ],
+  "path": "styles/47-default-browser/index.html",
+  "palette": [],
+  "roles": {
+   "bg": {
+    "value": "#ffffff",
+    "src": "browser default page white (source has no stylesheet)"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "browser default text black"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "value": "#808080",
+    "src": "browser default `<hr>` grey"
+   },
+   "accent": {
+    "value": "#0000ee",
+    "src": "browser default link `#0000ee`"
+   },
+   "accent2": {
+    "value": "#800080",
+    "src": "inline `style=\"color:purple\"` (visited example) = `#800080`"
+   },
+   "highlight": {
+    "value": "#ff0000",
+    "src": "browser default active-link red"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 9.4:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#ffffff",
+   "surface": "#ffffff",
+   "ink": "#000000",
+   "muted": "#000000",
+   "border": "#808080",
+   "accent": "#0000ee",
+   "accent2": "#800080",
+   "highlight": "#ff0000",
+   "onaccent": "#ffffff"
+  },
+  "contrast": {
+   "ink_surface": 21.0,
+   "ink_bg": 21.0,
+   "muted_surface": 21.0,
+   "onaccent_accent": 9.4
+  },
+  "font": "\"Times New Roman\", Times, serif",
+  "fontAlt": {},
+  "bodySize": null,
+  "note": "The source uses no stylesheet at all, so every value is the browser default it relies on (documented per token)."
+ },
+ {
+  "num": 48,
+  "slug": "48-wireframe-sketch",
+  "id": "wireframe",
+  "name": "Wireframe Sketch",
+  "era": "Technical",
+  "year": 2010,
+  "tags": [
+   "wireframe",
+   "sketch",
+   "lofi",
+   "grey"
+  ],
+  "path": "styles/48-wireframe-sketch/index.html",
+  "palette": [
+   "#fbfaf4",
+   "#2a2a2a",
+   "#b0b0b0",
+   "#8a8a8a",
+   "#d4d1c4"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#fbfaf4",
+    "src": "`--paper`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#2a2a2a",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#8a8a8a",
+    "src": "`--muted`"
+   },
+   "border": {
+    "value": "#b0b0b0",
+    "src": "`--light`"
+   },
+   "accent": {
+    "value": "#d4d1c4",
+    "src": "`--hi`"
+   },
+   "accent2": {
+    "alias": "border",
+    "src": "same as `border`"
+   },
+   "highlight": {
+    "alias": "accent",
+    "src": "same as `accent`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 9.38:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#fbfaf4",
+   "surface": "#fbfaf4",
+   "ink": "#2a2a2a",
+   "muted": "#8a8a8a",
+   "border": "#b0b0b0",
+   "accent": "#d4d1c4",
+   "accent2": "#b0b0b0",
+   "highlight": "#d4d1c4",
+   "onaccent": "#2a2a2a"
+  },
+  "contrast": {
+   "ink_surface": 13.73,
+   "ink_bg": 13.73,
+   "muted_surface": 3.3,
+   "onaccent_accent": 9.38
+  },
+  "font": "\"Kalam\", \"Comic Sans MS\", cursive",
+  "fontAlt": {
+   "font-hand": "\"Kalam\", \"Comic Sans MS\", \"Marker Felt\", cursive"
+  },
+  "bodySize": "16px",
+  "note": "Greyscale by design; the accent is the pale highlighter fill."
+ },
+ {
+  "num": 49,
+  "slug": "49-glitch-databend",
+  "id": "glitch",
+  "name": "Glitch Databend",
+  "era": "Aesthetic",
+  "year": 2010,
+  "tags": [
+   "glitch",
+   "databend",
+   "rgb",
+   "corrupt"
+  ],
+  "path": "styles/49-glitch-databend/index.html",
+  "palette": [
+   "#0a0a0a",
+   "#f0f0f0",
+   "#ff004d",
+   "#00f4ff",
+   "#00ff8c",
+   "#ffe600",
+   "#ff00ae"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#0a0a0a",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#f0f0f0",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "value": "#ff00ae",
+    "src": "`--magenta`"
+   },
+   "accent": {
+    "value": "#ff004d",
+    "src": "`--red`"
+   },
+   "accent2": {
+    "value": "#00f4ff",
+    "src": "`--cyan`"
+   },
+   "highlight": {
+    "value": "#ffe600",
+    "src": "`--yellow`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 5.05:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#0a0a0a",
+   "surface": "#0a0a0a",
+   "ink": "#f0f0f0",
+   "muted": "#f0f0f0",
+   "border": "#ff00ae",
+   "accent": "#ff004d",
+   "accent2": "#00f4ff",
+   "highlight": "#ffe600",
+   "onaccent": "#0a0a0a"
+  },
+  "contrast": {
+   "ink_surface": 17.37,
+   "ink_bg": 17.37,
+   "muted_surface": 17.37,
+   "onaccent_accent": 5.05
+  },
+  "font": "\"Space Mono\", \"JetBrains Mono\", \"IBM Plex Mono\", \"Courier New\", monospace",
+  "fontAlt": {
+   "font-heading": "\"Space Grotesk\", \"Helvetica Neue\", Impact, sans-serif"
+  },
+  "bodySize": "14px",
+  "note": ""
+ },
+ {
+  "num": 50,
+  "slug": "50-y2k-chrome",
+  "id": "y2k",
+  "name": "Y2K Chrome",
+  "era": "Aesthetic",
+  "year": 2000,
+  "tags": [
+   "y2k",
+   "chrome",
+   "metallic",
+   "bubble"
+  ],
+  "path": "styles/50-y2k-chrome/index.html",
+  "palette": [
+   "#d7f0ff",
+   "#ffccee",
+   "#e8d9ff",
+   "#202030",
+   "#ffffff",
+   "#b8c4d8",
+   "#5a6478",
+   "#ff6ab8"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#d7f0ff",
+    "src": "`--bg-1`"
+   },
+   "surface": {
+    "value": "#ffffff",
+    "src": "`--chrome-hi`"
+   },
+   "ink": {
+    "value": "#202030",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#5a6478",
+    "src": "`--chrome-low`"
+   },
+   "border": {
+    "value": "#b8c4d8",
+    "src": "`--chrome-mid`"
+   },
+   "accent": {
+    "value": "#ff6ab8",
+    "src": "`--pink`"
+   },
+   "accent2": {
+    "value": "#5ab8ff",
+    "src": "`--blue`"
+   },
+   "highlight": {
+    "value": "#9a7aff",
+    "src": "`--purple`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 6.11:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#d7f0ff",
+   "surface": "#ffffff",
+   "ink": "#202030",
+   "muted": "#5a6478",
+   "border": "#b8c4d8",
+   "accent": "#ff6ab8",
+   "accent2": "#5ab8ff",
+   "highlight": "#9a7aff",
+   "onaccent": "#202030"
+  },
+  "contrast": {
+   "ink_surface": 16.02,
+   "ink_bg": 13.58,
+   "muted_surface": 5.95,
+   "onaccent_accent": 6.11
+  },
+  "font": "\"Neue Haas Grotesk\", \"Helvetica Neue\", Arial, sans-serif",
+  "fontAlt": {
+   "font-display": "\"Eurostile\", \"Bank Gothic\", \"Helvetica Neue\", sans-serif"
+  },
+  "bodySize": "15px",
+  "note": ""
+ },
+ {
+  "num": 51,
+  "slug": "51-duotone-poster",
+  "id": "duotone",
+  "name": "Duotone Poster",
+  "era": "Print",
+  "year": 2015,
+  "tags": [
+   "duotone",
+   "poster",
+   "highcontrast",
+   "bold"
+  ],
+  "path": "styles/51-duotone-poster/index.html",
+  "palette": [
+   "#f4ead3",
+   "#ff3a38",
+   "#1a1a3a"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#f4ead3",
+    "src": "`--paper`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#1a1a3a",
+    "src": "`--spot-2`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "accent": {
+    "value": "#ff3a38",
+    "src": "`--spot-1`"
+   },
+   "accent2": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "highlight": {
+    "alias": "accent",
+    "src": "same as `accent`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 4.72:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#f4ead3",
+   "surface": "#f4ead3",
+   "ink": "#1a1a3a",
+   "muted": "#1a1a3a",
+   "border": "#1a1a3a",
+   "accent": "#ff3a38",
+   "accent2": "#1a1a3a",
+   "highlight": "#ff3a38",
+   "onaccent": "#1a1a3a"
+  },
+  "contrast": {
+   "ink_surface": 14.01,
+   "ink_bg": 14.01,
+   "muted_surface": 14.01,
+   "onaccent_accent": 4.72
+  },
+  "font": "\"Futura\", \"Helvetica Neue\", \"Akzidenz-Grotesk\", sans-serif",
+  "fontAlt": {
+   "font-display": "\"Futura\", \"Impact\", \"Helvetica Neue\", sans-serif"
+  },
+  "bodySize": "15px",
+  "note": "Paper plus two spot inks by design."
+ },
+ {
+  "num": 52,
+  "slug": "52-grid-paper",
+  "id": "gridpaper",
+  "name": "Grid Paper",
+  "era": "Technical",
+  "year": 1980,
+  "tags": [
+   "grid",
+   "paper",
+   "graph",
+   "engineering"
+  ],
+  "path": "styles/52-grid-paper/index.html",
+  "palette": [
+   "#fafaf0",
+   "#1a2847",
+   "#4a5a6e",
+   "#c83030",
+   "#2a7a3a"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#fafaf0",
+    "src": "`--paper`"
+   },
+   "surface": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "ink": {
+    "value": "#1a2847",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "value": "#4a5a6e",
+    "src": "`--pencil`"
+   },
+   "border": {
+    "value": "rgba(64, 100, 160, 0.3)",
+    "src": "`--grid-major`"
+   },
+   "accent": {
+    "value": "#c83030",
+    "src": "`--red-ink`"
+   },
+   "accent2": {
+    "value": "#2a7a3a",
+    "src": "`--green-ink`"
+   },
+   "highlight": {
+    "value": "rgba(255, 230, 100, 0.5)",
+    "src": "`--highlighter`"
+   },
+   "onaccent": {
+    "alias": "surface",
+    "src": "computed: the system colour with most contrast on `accent` (surface, 5.1:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#fafaf0",
+   "surface": "#fafaf0",
+   "ink": "#1a2847",
+   "muted": "#4a5a6e",
+   "border": "rgba(64, 100, 160, 0.3)",
+   "accent": "#c83030",
+   "accent2": "#2a7a3a",
+   "highlight": "rgba(255, 230, 100, 0.5)",
+   "onaccent": "#fafaf0"
+  },
+  "contrast": {
+   "ink_surface": 13.9,
+   "ink_bg": 13.9,
+   "muted_surface": 6.71,
+   "onaccent_accent": 5.1
+  },
+  "font": "\"Shadows Into Light\", \"Architects Daughter\", \"Comic Sans MS\", cursive",
+  "fontAlt": {
+   "font-neat": "\"Patrick Hand\", \"Kalam\", cursive"
+  },
+  "bodySize": "18px",
+  "note": "Grid lines and highlighter are translucent in the source and kept that way."
+ },
+ {
+  "num": 53,
+  "slug": "53-maximalist-banners",
+  "id": "maximalist",
+  "name": "Maximalist 90s Banner",
+  "era": "Web",
+  "year": 1997,
+  "tags": [
+   "maximalist",
+   "banner",
+   "loud",
+   "90s"
+  ],
+  "path": "styles/53-maximalist-banners/index.html",
+  "palette": [
+   "#ff00ff",
+   "#00ffff",
+   "#ffff00",
+   "#000000"
+  ],
+  "roles": {
+   "bg": {
+    "value": "#ff00ff",
+    "src": "`--bg`"
+   },
+   "surface": {
+    "value": "#ffff00",
+    "src": "`--bg-3`"
+   },
+   "ink": {
+    "value": "#000000",
+    "src": "`--ink`"
+   },
+   "muted": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "border": {
+    "alias": "ink",
+    "src": "same as `ink`"
+   },
+   "accent": {
+    "value": "#00ffff",
+    "src": "`--bg-2`"
+   },
+   "accent2": {
+    "alias": "surface",
+    "src": "same as `surface`"
+   },
+   "highlight": {
+    "alias": "bg",
+    "src": "same as `bg`"
+   },
+   "onaccent": {
+    "alias": "ink",
+    "src": "computed: the system colour with most contrast on `accent` (ink, 16.75:1)"
+   }
+  },
+  "resolved": {
+   "bg": "#ff00ff",
+   "surface": "#ffff00",
+   "ink": "#000000",
+   "muted": "#000000",
+   "border": "#000000",
+   "accent": "#00ffff",
+   "accent2": "#ffff00",
+   "highlight": "#ff00ff",
+   "onaccent": "#000000"
+  },
+  "contrast": {
+   "ink_surface": 19.56,
+   "ink_bg": 6.7,
+   "muted_surface": 19.56,
+   "onaccent_accent": 16.75
+  },
+  "font": "\"Comic Sans MS\", \"Trebuchet MS\", Verdana, sans-serif",
+  "fontAlt": {
+   "font-impact": "\"Impact\", \"Arial Black\", sans-serif"
+  },
+  "bodySize": "14px",
+  "note": "Magenta/cyan/yellow stripes with black text; no grey by design."
+ }
+]

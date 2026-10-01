@@ -5,3 +5,7 @@ _local-only/
 # OS / editor cruft
 .DS_Store
 Thumbs.db
+
+# TrillFx design-system build
+design-system/.verify/
+__pycache__/

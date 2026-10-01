@@ -1,0 +1,49 @@
+body { margin: 0; background: var(--ui-bg); color: var(--ui-ink); font-family: var(--font-modern); }
+.rt-stage { background: var(--ui-bg); color: var(--ui-ink); padding: var(--space-6); }
+.rt-win { background: var(--ui-surface); color: var(--ui-ink); border: 2px solid var(--ui-border); max-width: 520px; }
+.rt-bar { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); background: var(--ui-accent); color: var(--ui-onaccent); padding: var(--space-1) var(--space-2); font-weight: 700; font-size: 14px; }
+.rt-bar-btns i { display: inline-block; width: 11px; height: 11px; margin-left: var(--space-1); border: 1px solid var(--ui-onaccent); vertical-align: middle; }
+.rt-body { padding: var(--space-4); }
+.rt-text { margin: 0 0 var(--space-2); font-size: 15px; line-height: 1.4; }
+.rt-muted { margin: 0 0 var(--space-4); font-size: 13px; color: var(--ui-muted); }
+.rt-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); }
+.rt-btn { font: inherit; font-size: 14px; min-height: 32px; padding: 0 var(--space-4); background: var(--ui-surface); color: var(--ui-ink); border: 2px solid var(--ui-border); border-radius: var(--radius-0); cursor: pointer; }
+.rt-primary { background: var(--ui-accent); color: var(--ui-onaccent); border-color: var(--ui-ink); }
+.rt-input { font: inherit; font-size: 14px; min-height: 32px; width: 72px; padding: 0 var(--space-2); background: var(--ui-surface); color: var(--ui-ink); border: 2px solid var(--ui-border); border-radius: var(--radius-0); }
+.rt-btn:focus-visible, .rt-input:focus-visible, .rt-controls select:focus-visible, .rt-controls button:focus-visible { outline: 2px solid var(--ui-ink); outline-offset: 2px; }
+.rt-keys { display: flex; flex-wrap: wrap; gap: var(--space-4); margin-top: var(--space-4); font-size: 13px; }
+.rt-dot { display: inline-block; width: 12px; height: 12px; margin-right: 6px; vertical-align: -1px; border: 1px solid var(--ui-ink); }
+.rt-switch { background: var(--ui-bg); color: var(--ui-ink); font-family: var(--font-modern); }
+.rt-controls { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--ui-border); }
+.rt-label { font-size: 13px; font-weight: 600; }
+.rt-controls select, .rt-controls button { font: inherit; font-size: 14px; min-height: 32px; padding: 0 var(--space-2); background: var(--ui-surface); color: var(--ui-ink); border: 1px solid var(--ui-border); border-radius: var(--radius-0); }
+.rt-controls button { cursor: pointer; min-width: 36px; }
+.rt-count { margin-left: auto; font-size: 13px; }
+.rt-split { display: flex; flex-wrap: wrap; }
+.rt-left { flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; }
+.rt-left .rt-stage { flex: 1 1 auto; box-sizing: border-box; }
+.rt-info { flex: 1 1 300px; padding: var(--space-4); font-size: 13px; line-height: 1.5; }
+.rt-info h3 { margin: 0 0 var(--space-1); font-size: 18px; }
+.rt-meta { margin: 0 0 var(--space-3); }
+.rt-code { margin: var(--space-3) 0 0; font-family: var(--font-mono); font-size: 12px; word-break: break-word; }
+.rt-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-2); margin-bottom: var(--space-3); }
+.rt-sw { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.rt-sw b { flex: none; width: 24px; height: 24px; border: 1px solid var(--ui-ink); }
+.rt-role { display: block; font-weight: 600; font-size: 12px; }
+.rt-hex { display: block; font-family: var(--font-mono); font-size: 11px; }
+.rt-grid { border-collapse: collapse; width: 100%; font-size: 12px; font-family: var(--font-modern); background: var(--ui-bg); color: var(--ui-ink); }
+.rt-grid th, .rt-grid td { padding: 3px 6px; text-align: left; white-space: nowrap; border-bottom: 1px solid var(--ui-border); }
+.rt-grid th { position: sticky; top: 0; background: var(--ui-surface); font-weight: 600; }
+.rt-grid td.sw { padding: 2px 3px; }
+.rt-grid td.sw i { display: block; width: 22px; height: 18px; box-shadow: inset 0 0 0 1px rgba(128, 128, 128, 0.45); }
+.rt-num { font-family: var(--font-mono); }
+.rt-name { font-weight: 600; }
+/* native themes carry their system's own type into components (Retro.apply sets it inline for the other 45) */
+[data-theme="crt"] .rt-stage { font-family: "VT323", "IBM Plex Mono", "Courier New", monospace; }
+[data-theme="vaporwave"] .rt-stage { font-family: "Times New Roman", "Hiragino Mincho Pro", serif; }
+[data-theme="win95"] .rt-stage { font-family: "MS Sans Serif", "Pixelated MS Sans Serif", Tahoma, sans-serif; }
+[data-theme="arcade"] .rt-stage { font-family: "Press Start 2P", "VT323", monospace; }
+[data-theme="tron"] .rt-stage { font-family: "Orbitron", "Eurostile", "Share Tech Mono", monospace; }
+[data-theme="gameboy"] .rt-stage { font-family: "Press Start 2P", "VT323", "Courier New", monospace; }
+[data-theme="riso"] .rt-stage { font-family: "Helvetica Neue", "Akzidenz-Grotesk", "Arial", sans-serif; }
+[data-theme="swiss"] .rt-stage { font-family: "Helvetica Neue", "Akzidenz-Grotesk", Helvetica, Arial, sans-serif; }
