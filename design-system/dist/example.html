@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retro kit example</title>
+<link rel="stylesheet" href="retro.css">
+<style>
+  body { margin: 0; padding: 24px; min-height: 100vh; box-sizing: border-box; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  h1 { margin: 0 0 12px; font-size: 1.4em; }
+</style>
+</head>
+<body data-retro="win95">
+  <h1>Retro kit example</h1>
+  <div id="pick"></div>
+  <div class="retro-panel" style="margin-top:16px;max-width:520px">
+    <p>One CSS file, one attribute. Pick a system above and everything re-themes.</p>
+    <p class="retro-muted">Muted text uses the <code>muted</code> role.</p>
+    <div class="row">
+      <button class="retro-btn">Cancel</button>
+      <button class="retro-btn retro-btn--primary">OK</button>
+      <a class="retro-link" href="#">A link</a>
+    </div>
+  </div>
+  <script src="retro.js"></script>
+  <script>
+    Retro.restore("win95");
+    Retro.picker(document.getElementById("pick"));
+  </script>
+</body>
+</html>

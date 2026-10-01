@@ -1,71 +1,25 @@
-# TrillFx Retro Design System
-
-> 53 retro UI eras as one switchable design system, built for TrillFx audio-visual work: VJ overlays, tool GUIs, stream graphics and show flyers. Based on NovusGFX's *Retro Design System* (MIT).
-
-![Retro Design Systems social poster](./assets/social-poster.png)
-
-[![GitHub stars](https://img.shields.io/github/stars/LeviTrillfonix/retro-design-system?style=for-the-badge)](https://github.com/LeviTrillfonix/retro-design-system/stargazers)
-[![Last commit](https://img.shields.io/github/last-commit/LeviTrillfonix/retro-design-system?style=for-the-badge)](https://github.com/LeviTrillfonix/retro-design-system/commits/main)
-[![Systems](https://img.shields.io/badge/systems-53-ff2d95?style=for-the-badge)](./design-system/project/README.md)
-[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](./LICENSE)
-
-## What TrillFx adds
-
-The original 53 standalone styles are unchanged in `styles/`, `tokens/` and `manifest.json`. On top of them, `design-system/` turns the collection into one token set:
-
-- **Nine shared roles** (`bg`, `surface`, `ink`, `muted`, `border`, `accent`, `accent2`, `highlight`, `onaccent`), mapped for every system from its own source values: 486 colour tokens, none invented.
-- **Any element, any era.** `Retro.apply(el, 'win95')` re-skins an element and everything in it; in plain CSS, repoint the nine `--ui-*` custom properties.
-- **Components** in plain JavaScript, no framework: RetroWindow, SystemSwitcher (all 53, live) and PaletteGrid.
-- **A brand book** with roles, type, voice by era, iconography and a WCAG contrast audit of all 53: [`design-system/project/README.md`](./design-system/project/README.md).
-- **A reproducible build.** Every colour is traced to a source file, and the build stops if a hand-picked colour is not in its source.
-
-### Build
-
-```bash
-python design-system/build/build.py            # tokens, components, brand book
-python design-system/build/build.py --verify   # + render every preview headless
-                                               #   (pip install playwright; playwright install chromium)
-```
-
-| Path | What |
-|---|---|
-| `design-system/project/` | The design system itself: `tokens.json`, the brand book, `components/` (bundle, styles, types, previews, cover). The same files the TrillFx Design System artifact holds. |
-| `design-system/build/` | `extract.py` (source values to roles, contrast), `gen.py` (tokens and components), `readme.py` (brand book), `verify.py` (headless render check), `build.py` (runs them in order). |
-| `design-system/systems.json` | All 53 systems resolved: roles, sources, fonts, contrast. |
-| `design-system/contrast-report.md` | The contrast table on its own. |
-
-### Staying in sync with the original
-
-This repo is a fork of [NovusGFX/retro-design-system](https://github.com/NovusGFX/retro-design-system). To pull in new styles:
-
-```bash
-git remote add upstream https://github.com/NovusGFX/retro-design-system.git   # once
-git fetch upstream && git merge upstream/main
-python design-system/build/build.py --verify
-```
-
-A new style needs an id and a role mapping in `design-system/build/extract.py`; the build stops and names any system that has none. Expect a merge conflict in this README if the original's README changes: keep this header and take their text below.
-
-## Credits
-
-The original collection, its 53 styles, screenshots and tooling are by **NovusGFX**, MIT. The `design-system/` layer and this header are by **Levi Trillfonix / TrillFx**, MIT. Both notices are in [LICENSE](./LICENSE).
-
----
-
-## The original collection (NovusGFX)
+# Retro Design System
 
 > 53 standalone HTML/CSS UI themes spanning iconic computing and design eras. Built for AI-assisted frontend development, rapid prototyping, and nostalgic interface design.
 
 53 retro UI design systems covering Windows 95, CRT terminals, DOS CGA, IBM mainframes, vaporwave, 8-bit arcade, Mac OS X Aqua, GeoCities, Commodore 64, Tron, VHS, Risograph, Bauhaus, and more. Each one drops into your own project or feeds directly to an AI coding agent.
 
-### Live Showcase
+![Retro Design Systems social poster](./assets/social-poster.png)
+
+[![GitHub stars](https://img.shields.io/github/stars/NovusGFX/retro-design-system?style=for-the-badge)](https://github.com/NovusGFX/retro-design-system/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/NovusGFX/retro-design-system?style=for-the-badge)](https://github.com/NovusGFX/retro-design-system/network/members)
+[![Last commit](https://img.shields.io/github/last-commit/NovusGFX/retro-design-system?style=for-the-badge)](https://github.com/NovusGFX/retro-design-system/commits/main)
+[![AI Agent Ready](https://img.shields.io/badge/AI%20Agent-Ready-00a86b?style=for-the-badge)](https://github.com/NovusGFX/retro-design-system)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](./LICENSE)
+
+## Live Showcase
 
 - **Interactive explorer**: [https://novusgfx.github.io/retro-design-system/docs/](https://novusgfx.github.io/retro-design-system/docs/)
 - Source: `docs/index.html`
 
 ---
 
-### Quick Start
+## Quick Start
 
 Open any folder's `index.html` directly in a browser, or run a local static server:
 
@@ -77,7 +31,7 @@ Then visit `http://localhost:8000/`.
 
 ---
 
-### Screenshot Preview
+## Screenshot Preview
 
 | Mac System 7 | Windows 95 |
 |---|---|
@@ -101,7 +55,7 @@ Then visit `http://localhost:8000/`.
 
 ---
 
-### Use Cases
+## Use Cases
 
 - **AI-generated frontend themes**: Use Claude, Codex, Gemini, or Cursor to generate pages and components that match a specific retro style.
 - **Retro dashboard UI kits**: Build admin panels, launchers, and control rooms with vintage OS aesthetics.
@@ -112,7 +66,7 @@ Then visit `http://localhost:8000/`.
 
 ---
 
-### How To Use In Your Own Project
+## How To Use In Your Own Project
 
 1. Pick the system you want from the list below.
 2. Import its tokens from `tokens/<slug>.css`, or copy the token/style section from `styles/<slug>/index.html`.
@@ -120,7 +74,7 @@ Then visit `http://localhost:8000/`.
 
 ---
 
-### Programmatic Access
+## Programmatic Access
 
 Two generated files make the collection scriptable and agent-friendly:
 
@@ -136,18 +90,18 @@ node scripts/build-tokens.mjs     # rewrites tokens/*.css
 
 ---
 
-### Using With AI Coding Agents (Claude, Codex, Gemini, Cursor, etc.)
+## Using With AI Coding Agents (Claude, Codex, Gemini, Cursor, etc.)
 
 Point your agent at a style folder and ask it to generate UI in that visual language. Each system is one self-contained file: tokens, components, and patterns together. Agents can read and reproduce the style without extra context.
 
-#### Suggested workflow
+### Suggested workflow
 
 1. Point the agent to a specific system folder (e.g. `styles/11-8bit-arcade/index.html`).
 2. Ask it to extract tokens (colors, typography, spacing, shadows, borders) into reusable variables.
 3. Ask it to build your target component or page in that same visual language.
 4. Ask it to avoid modern defaults that break the retro look.
 
-#### Prompt template
+### Prompt template
 
 ```text
 Use `<your-project-path>/styles/11-8bit-arcade/index.html` as the style reference.
@@ -170,7 +124,7 @@ Swap the reference path for any style in this repo. Popular picks:
 
 ---
 
-### Included Systems
+## Included Systems
 
 53 standalone systems in `styles/`. Browse them all in the [interactive explorer](https://novusgfx.github.io/retro-design-system/docs/) or jump to source:
 
@@ -229,7 +183,7 @@ Swap the reference path for any style in this repo. Popular picks:
 53. [Maximalist 90s Banner](https://github.com/NovusGFX/retro-design-system/blob/main/styles/53-maximalist-banners/index.html)
 ---
 
-### Project Structure
+## Project Structure
 
 ```text
 styles/
@@ -244,7 +198,7 @@ Each numbered folder contains one `index.html` with embedded CSS tokens and comp
 
 ---
 
-### FAQ
+## FAQ
 
 **Can I use this with Claude, Codex, Gemini, Cursor, or other coding assistants?**
 Yes. Point your assistant to one of the style folders and ask it to generate a component or page in that visual language. The single-file format is agent-friendly by design.
@@ -263,7 +217,7 @@ MIT. Use it freely in personal and commercial projects.
 
 ---
 
-### Contributing
+## Contributing
 
 New styles, bug fixes, and improvements are welcome.
 
@@ -274,10 +228,10 @@ New styles, bug fixes, and improvements are welcome.
 
 ---
 
-### Credits
+## Credits
 
 Created by **NovusGFX**.
 
-### License
+## License
 
 MIT License. See `LICENSE`.
