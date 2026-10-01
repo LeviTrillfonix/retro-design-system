@@ -1,0 +1,1446 @@
+{
+ "roles": [
+  "bg",
+  "surface",
+  "ink",
+  "muted",
+  "border",
+  "accent",
+  "accent2",
+  "highlight",
+  "onaccent"
+ ],
+ "systems": [
+  {
+   "num": 1,
+   "id": "macsys7",
+   "slug": "01-mac-system-7",
+   "name": "Mac System 7",
+   "era": "Desktop OS",
+   "year": 1991,
+   "tags": [
+    "mac",
+    "monochrome",
+    "bevel",
+    "classic"
+   ],
+   "font": "\"Chicago\", \"Charcoal\", \"Geneva\", Tahoma, sans-serif",
+   "bodySize": "12px",
+   "roles": {
+    "bg": "#888888",
+    "surface": "#ffffff",
+    "ink": "#000000",
+    "muted": "#888888",
+    "border": "#000000",
+    "accent": "#000000",
+    "accent2": "#dddddd",
+    "highlight": "#a8a8a8",
+    "onaccent": "#ffffff"
+   }
+  },
+  {
+   "num": 2,
+   "id": "win95",
+   "slug": "02-windows-95",
+   "name": "Windows 95",
+   "era": "Desktop OS",
+   "year": 1995,
+   "tags": [
+    "windows",
+    "bevel",
+    "chrome",
+    "classic"
+   ],
+   "font": "\"MS Sans Serif\", \"Pixelated MS Sans Serif\", Tahoma, sans-serif",
+   "bodySize": "11px",
+   "roles": {
+    "bg": "#008080",
+    "surface": "#c0c0c0",
+    "ink": "#000000",
+    "muted": "#808080",
+    "border": "#000000",
+    "accent": "#000080",
+    "accent2": "#008080",
+    "highlight": "#ffffff",
+    "onaccent": "#ffffff"
+   }
+  },
+  {
+   "num": 3,
+   "id": "xpluna",
+   "slug": "03-windows-xp-luna",
+   "name": "Windows XP Luna",
+   "era": "Desktop OS",
+   "year": 2001,
+   "tags": [
+    "windows",
+    "glossy",
+    "blue",
+    "luna"
+   ],
+   "font": "\"Trebuchet MS\", \"Tahoma\", \"Franklin Gothic Medium\", sans-serif",
+   "bodySize": "11px",
+   "roles": {
+    "bg": "#4e8edd",
+    "surface": "#ece9d8",
+    "ink": "#000000",
+    "muted": "#3a6ea5",
+    "border": "#0c3aa2",
+    "accent": "#2a5fd7",
+    "accent2": "#3cb83c",
+    "highlight": "#99c6ff",
+    "onaccent": "#ece9d8"
+   }
+  },
+  {
+   "num": 4,
+   "id": "aqua",
+   "slug": "04-aqua-osx",
+   "name": "Mac OS X Aqua",
+   "era": "Desktop OS",
+   "year": 2001,
+   "tags": [
+    "mac",
+    "glossy",
+    "gel",
+    "aqua"
+   ],
+   "font": "\"Lucida Grande\", \"Helvetica Neue\", sans-serif",
+   "bodySize": "13px",
+   "roles": {
+    "bg": "#b8c9e0",
+    "surface": "#e8e8e8",
+    "ink": "#1a1a1a",
+    "muted": "#2057c2",
+    "border": "#c8c8c8",
+    "accent": "#4d90fe",
+    "accent2": "#ff4b2b",
+    "highlight": "#ffbe2b",
+    "onaccent": "#1a1a1a"
+   }
+  },
+  {
+   "num": 5,
+   "id": "amiga",
+   "slug": "05-amiga-workbench",
+   "name": "Amiga Workbench",
+   "era": "Desktop OS",
+   "year": 1985,
+   "tags": [
+    "amiga",
+    "retro",
+    "orange",
+    "blue"
+   ],
+   "font": "\"Topaz\", \"Courier New\", \"Consolas\", monospace",
+   "bodySize": "13px",
+   "roles": {
+    "bg": "#0055aa",
+    "surface": "#a0a0a0",
+    "ink": "#000000",
+    "muted": "#0055aa",
+    "border": "#000000",
+    "accent": "#ff8800",
+    "accent2": "#ffffff",
+    "highlight": "#ffffff",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 6,
+   "id": "nextstep",
+   "slug": "06-nextstep",
+   "name": "NeXTSTEP",
+   "era": "Desktop OS",
+   "year": 1989,
+   "tags": [
+    "next",
+    "greyscale",
+    "unix",
+    "chiseled"
+   ],
+   "font": "\"Helvetica Neue\", \"Helvetica\", \"Liberation Sans\", sans-serif",
+   "bodySize": "12px",
+   "roles": {
+    "bg": "#555561",
+    "surface": "#a8a8b0",
+    "ink": "#000000",
+    "muted": "#2c2c30",
+    "border": "#606068",
+    "accent": "#3c3c40",
+    "accent2": "#d0d0d4",
+    "highlight": "#f0f0f4",
+    "onaccent": "#f0f0f4"
+   }
+  },
+  {
+   "num": 7,
+   "id": "beos",
+   "slug": "07-beos",
+   "name": "BeOS",
+   "era": "Desktop OS",
+   "year": 1996,
+   "tags": [
+    "beos",
+    "yellow",
+    "tab",
+    "media"
+   ],
+   "font": "\"Swiss 721\", \"Helvetica\", \"Swis721 BT\", sans-serif",
+   "bodySize": "12px",
+   "roles": {
+    "bg": "#2a5556",
+    "surface": "#cfcfcf",
+    "ink": "#000000",
+    "muted": "#404040",
+    "border": "#888888",
+    "accent": "#ffcc00",
+    "accent2": "#e04040",
+    "highlight": "#ffffff",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 8,
+   "id": "teletext",
+   "slug": "08-teletext",
+   "name": "Teletext",
+   "era": "Broadcast",
+   "year": 1974,
+   "tags": [
+    "teletext",
+    "blocky",
+    "primary",
+    "tv"
+   ],
+   "font": "\"VT323\", \"Courier New\", \"Consolas\", monospace",
+   "bodySize": "22px",
+   "roles": {
+    "bg": "#1a1a1a",
+    "surface": "#000000",
+    "ink": "#ffffff",
+    "muted": "#00ffff",
+    "border": "#0000ff",
+    "accent": "#ffff00",
+    "accent2": "#ff0000",
+    "highlight": "#00ff00",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 9,
+   "id": "crt",
+   "slug": "09-crt-phosphor",
+   "name": "CRT Phosphor Terminal",
+   "era": "Terminal",
+   "year": 1980,
+   "tags": [
+    "terminal",
+    "green",
+    "scanline",
+    "phosphor"
+   ],
+   "font": "\"VT323\", \"IBM Plex Mono\", \"Courier New\", monospace",
+   "bodySize": "20px",
+   "roles": {
+    "bg": "#000000",
+    "surface": "#001a00",
+    "ink": "#33ff33",
+    "muted": "#1a8a1a",
+    "border": "#1a8a1a",
+    "accent": "#aaffaa",
+    "accent2": "#ffb400",
+    "highlight": "#33ff33",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 10,
+   "id": "doscga",
+   "slug": "10-dos-cga",
+   "name": "DOS CGA",
+   "era": "Terminal",
+   "year": 1981,
+   "tags": [
+    "dos",
+    "cyan",
+    "magenta",
+    "4-color"
+   ],
+   "font": "\"Perfect DOS VGA 437\", \"IBM Plex Mono\", \"Courier New\", monospace",
+   "bodySize": "18px",
+   "roles": {
+    "bg": "#0000aa",
+    "surface": "#000000",
+    "ink": "#aaaaaa",
+    "muted": "#00aaaa",
+    "border": "#ffffff",
+    "accent": "#55ffff",
+    "accent2": "#aa00aa",
+    "highlight": "#ffff55",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 11,
+   "id": "arcade",
+   "slug": "11-8bit-arcade",
+   "name": "8-Bit Arcade",
+   "era": "Gaming",
+   "year": 1983,
+   "tags": [
+    "arcade",
+    "pixel",
+    "neon",
+    "8-bit"
+   ],
+   "font": "\"Press Start 2P\", \"VT323\", monospace",
+   "bodySize": "14px",
+   "roles": {
+    "bg": "#0b0b1e",
+    "surface": "#1a1440",
+    "ink": "#e9e9ff",
+    "muted": "#00e5ff",
+    "border": "#7c1dfd",
+    "accent": "#ff2d95",
+    "accent2": "#ffd300",
+    "highlight": "#2bff88",
+    "onaccent": "#0b0b1e"
+   }
+  },
+  {
+   "num": 12,
+   "id": "aero",
+   "slug": "12-frutiger-aero",
+   "name": "Frutiger Aero",
+   "era": "Web/UI",
+   "year": 2007,
+   "tags": [
+    "aero",
+    "glossy",
+    "nature",
+    "glass"
+   ],
+   "font": "\"Frutiger\", \"Segoe UI\", \"Myriad Pro\", \"Helvetica Neue\", sans-serif",
+   "bodySize": "14px",
+   "roles": {
+    "bg": "#7fcfff",
+    "surface": "rgba(255,255,255,0.35)",
+    "ink": "#0b2a3c",
+    "muted": "#0b2a3c",
+    "border": "#0ea5ff",
+    "accent": "#0ea5ff",
+    "accent2": "#3dd36b",
+    "highlight": "#c7f0ff",
+    "onaccent": "#0b2a3c"
+   }
+  },
+  {
+   "num": 13,
+   "id": "winamp",
+   "slug": "13-winamp-skin",
+   "name": "Winamp Skin",
+   "era": "App",
+   "year": 1997,
+   "tags": [
+    "winamp",
+    "media",
+    "skin",
+    "lcd"
+   ],
+   "font": "\"Helvetica Neue\", Arial, sans-serif",
+   "bodySize": "12px",
+   "roles": {
+    "bg": "#0e0e12",
+    "surface": "#3c3c3c",
+    "ink": "#eeeeee",
+    "muted": "#8a8a8a",
+    "border": "#5a5a5a",
+    "accent": "#00ff33",
+    "accent2": "#ffb400",
+    "highlight": "#ff3b3b",
+    "onaccent": "#0e0e12"
+   }
+  },
+  {
+   "num": 14,
+   "id": "geocities",
+   "slug": "14-geocities-web10",
+   "name": "GeoCities Web 1.0",
+   "era": "Web",
+   "year": 1996,
+   "tags": [
+    "web1.0",
+    "kitsch",
+    "gif",
+    "tiled"
+   ],
+   "font": "\"Comic Sans MS\", \"Times New Roman\", serif",
+   "bodySize": "14px",
+   "roles": {
+    "bg": "#000000",
+    "surface": "#000000",
+    "ink": "#ffff00",
+    "muted": "#00ffff",
+    "border": "#00ffff",
+    "accent": "#ff3399",
+    "accent2": "#00ff00",
+    "highlight": "#ff0000",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 15,
+   "id": "cassette",
+   "slug": "15-cassette-futurism",
+   "name": "Cassette Futurism",
+   "era": "Sci-Fi",
+   "year": 1979,
+   "tags": [
+    "scifi",
+    "control-panel",
+    "amber",
+    "analog"
+   ],
+   "font": "\"Orbitron\", \"Share Tech Mono\", \"Courier New\", monospace",
+   "bodySize": "13px",
+   "roles": {
+    "bg": "#0a0704",
+    "surface": "#1a1510",
+    "ink": "#ffb000",
+    "muted": "#d9a85e",
+    "border": "#3a2f22",
+    "accent": "#ffd470",
+    "accent2": "#ff4422",
+    "highlight": "#5aff8a",
+    "onaccent": "#0a0704"
+   }
+  },
+  {
+   "num": 16,
+   "id": "vaporwave",
+   "slug": "16-vaporwave",
+   "name": "Vaporwave",
+   "era": "Aesthetic",
+   "year": 2011,
+   "tags": [
+    "vaporwave",
+    "pastel",
+    "synth",
+    "neon"
+   ],
+   "font": "\"Times New Roman\", \"Hiragino Mincho Pro\", serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#1a0b2e",
+    "surface": "#3a1458",
+    "ink": "#f8f8ff",
+    "muted": "#b967ff",
+    "border": "#ff00e5",
+    "accent": "#ff71ce",
+    "accent2": "#01cdfe",
+    "highlight": "#05ffa1",
+    "onaccent": "#1a0b2e"
+   }
+  },
+  {
+   "num": 17,
+   "id": "memphis",
+   "slug": "17-memphis",
+   "name": "Memphis",
+   "era": "Design",
+   "year": 1981,
+   "tags": [
+    "memphis",
+    "postmodern",
+    "primary",
+    "squiggle"
+   ],
+   "font": "\"Helvetica Neue\", Helvetica, Impact, sans-serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#ffffff",
+    "surface": "#ffffff",
+    "ink": "#000000",
+    "muted": "#000000",
+    "border": "#000000",
+    "accent": "#ff4fa3",
+    "accent2": "#12c3ce",
+    "highlight": "#ffe034",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 18,
+   "id": "ps1",
+   "slug": "18-ps1-tech",
+   "name": "PS1 Tech",
+   "era": "Gaming",
+   "year": 1994,
+   "tags": [
+    "playstation",
+    "low-poly",
+    "tech",
+    "gradient"
+   ],
+   "font": "\"Eurostile\", \"Rajdhani\", \"Share Tech Mono\", sans-serif",
+   "bodySize": "14px",
+   "roles": {
+    "bg": "#0a0a10",
+    "surface": "#2a2a32",
+    "ink": "#e8e8f0",
+    "muted": "#c0c0c0",
+    "border": "#606068",
+    "accent": "#00ffff",
+    "accent2": "#9d4edd",
+    "highlight": "#39ff14",
+    "onaccent": "#0a0a10"
+   }
+  },
+  {
+   "num": 19,
+   "id": "os2warp",
+   "slug": "19-os2-warp",
+   "name": "OS/2 Warp",
+   "era": "Desktop OS",
+   "year": 1994,
+   "tags": [
+    "os2",
+    "ibm",
+    "bevel",
+    "blue"
+   ],
+   "font": "\"Helvetica\", \"WarpSans\", \"Arial\", sans-serif",
+   "bodySize": "13px",
+   "roles": {
+    "bg": "#2d7a7a",
+    "surface": "#c0c0c0",
+    "ink": "#000000",
+    "muted": "#404040",
+    "border": "#808080",
+    "accent": "#00007f",
+    "accent2": "#c41e3a",
+    "highlight": "#1084d0",
+    "onaccent": "#c0c0c0"
+   }
+  },
+  {
+   "num": 20,
+   "id": "macos9",
+   "slug": "20-macos9-platinum",
+   "name": "Mac OS 9 Platinum",
+   "era": "Desktop OS",
+   "year": 1999,
+   "tags": [
+    "mac",
+    "platinum",
+    "pinstripe",
+    "grey"
+   ],
+   "font": "\"Charcoal\", \"Geneva\", \"Lucida Grande\", sans-serif",
+   "bodySize": "12px",
+   "roles": {
+    "bg": "#808080",
+    "surface": "#dddddd",
+    "ink": "#000000",
+    "muted": "#555555",
+    "border": "#858585",
+    "accent": "#3a62ab",
+    "accent2": "#a0a0a0",
+    "highlight": "#f5f5f5",
+    "onaccent": "#f5f5f5"
+   }
+  },
+  {
+   "num": 21,
+   "id": "web20",
+   "slug": "21-web20-glossy",
+   "name": "Web 2.0 Glossy",
+   "era": "Web/UI",
+   "year": 2005,
+   "tags": [
+    "web2.0",
+    "glossy",
+    "reflection",
+    "rounded"
+   ],
+   "font": "\"Lucida Grande\", \"Trebuchet MS\", \"Helvetica Neue\", Arial, sans-serif",
+   "bodySize": "13px",
+   "roles": {
+    "bg": "#e8f0f7",
+    "surface": "#ffffff",
+    "ink": "#2a2a2a",
+    "muted": "#6a7a8a",
+    "border": "#a8d0f0",
+    "accent": "#2a7ac9",
+    "accent2": "#ff8c1a",
+    "highlight": "#7ab800",
+    "onaccent": "#ffffff"
+   }
+  },
+  {
+   "num": 22,
+   "id": "gameboy",
+   "slug": "22-gameboy-dmg",
+   "name": "Game Boy DMG",
+   "era": "Gaming",
+   "year": 1989,
+   "tags": [
+    "gameboy",
+    "green",
+    "lcd",
+    "4-shade"
+   ],
+   "font": "\"Press Start 2P\", \"VT323\", \"Courier New\", monospace",
+   "bodySize": "18px",
+   "roles": {
+    "bg": "#b8b0a4",
+    "surface": "#9bbc0f",
+    "ink": "#0f380f",
+    "muted": "#306230",
+    "border": "#2a3028",
+    "accent": "#6a1b7a",
+    "accent2": "#d42020",
+    "highlight": "#306230",
+    "onaccent": "#b8b0a4"
+   }
+  },
+  {
+   "num": 23,
+   "id": "braun",
+   "slug": "23-braun-rams",
+   "name": "Braun / Dieter Rams",
+   "era": "Design",
+   "year": 1960,
+   "tags": [
+    "braun",
+    "functional",
+    "minimal",
+    "industrial"
+   ],
+   "font": "\"Akzidenz-Grotesk\", \"Helvetica Neue\", Helvetica, \"Arial\", sans-serif",
+   "bodySize": "14px",
+   "roles": {
+    "bg": "#f4f3f0",
+    "surface": "#ffffff",
+    "ink": "#1a1a1a",
+    "muted": "#6a6965",
+    "border": "#b8b7b3",
+    "accent": "#f2642a",
+    "accent2": "#3a7a5a",
+    "highlight": "#e4e3e0",
+    "onaccent": "#1a1a1a"
+   }
+  },
+  {
+   "num": 24,
+   "id": "tron",
+   "slug": "24-tron-vector",
+   "name": "Tron Vector",
+   "era": "Sci-Fi",
+   "year": 1982,
+   "tags": [
+    "tron",
+    "vector",
+    "cyan",
+    "grid"
+   ],
+   "font": "\"Orbitron\", \"Eurostile\", \"Share Tech Mono\", monospace",
+   "bodySize": "14px",
+   "roles": {
+    "bg": "#000008",
+    "surface": "#0a1a3a",
+    "ink": "#00e4ff",
+    "muted": "#007a8a",
+    "border": "#007a8a",
+    "accent": "#ff7a00",
+    "accent2": "#ff2040",
+    "highlight": "#a0f4ff",
+    "onaccent": "#000008"
+   }
+  },
+  {
+   "num": 25,
+   "id": "vhs",
+   "slug": "25-vhs-tracking",
+   "name": "VHS Tracking",
+   "era": "Analog",
+   "year": 1980,
+   "tags": [
+    "vhs",
+    "glitch",
+    "scanline",
+    "analog"
+   ],
+   "font": "\"VT323\", \"Courier New\", monospace",
+   "bodySize": "22px",
+   "roles": {
+    "bg": "#0a0a0a",
+    "surface": "#141014",
+    "ink": "#f4f4f4",
+    "muted": "#4ae2ff",
+    "border": "#4ae2ff",
+    "accent": "#ff1a1a",
+    "accent2": "#ffe84a",
+    "highlight": "#ff2aff",
+    "onaccent": "#0a0a0a"
+   }
+  },
+  {
+   "num": 26,
+   "id": "riso",
+   "slug": "26-risograph",
+   "name": "Risograph",
+   "era": "Print",
+   "year": 1986,
+   "tags": [
+    "riso",
+    "print",
+    "duotone",
+    "grain"
+   ],
+   "font": "\"Helvetica Neue\", \"Akzidenz-Grotesk\", \"Arial\", sans-serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#f3efe4",
+    "surface": "#e6dfcb",
+    "ink": "#1a1a1a",
+    "muted": "#0078b4",
+    "border": "#1a1a1a",
+    "accent": "#ff4fa5",
+    "accent2": "#00a03c",
+    "highlight": "#f6d800",
+    "onaccent": "#1a1a1a"
+   }
+  },
+  {
+   "num": 27,
+   "id": "ibm3270",
+   "slug": "27-ibm-3270",
+   "name": "IBM 3270 Mainframe",
+   "era": "Terminal",
+   "year": 1971,
+   "tags": [
+    "ibm",
+    "mainframe",
+    "terminal",
+    "cics"
+   ],
+   "font": "\"IBM 3270\", \"PxPlus 3270\", \"VT323\", \"Courier New\", monospace",
+   "bodySize": "18px",
+   "roles": {
+    "bg": "#0a0a0a",
+    "surface": "#000000",
+    "ink": "#00d400",
+    "muted": "#00d4d4",
+    "border": "#005a5a",
+    "accent": "#ffe84a",
+    "accent2": "#ff7aa8",
+    "highlight": "#e4e4e4",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 28,
+   "id": "nethack",
+   "slug": "28-nethack-ascii",
+   "name": "NetHack ASCII",
+   "era": "Terminal",
+   "year": 1987,
+   "tags": [
+    "ascii",
+    "roguelike",
+    "terminal",
+    "mono"
+   ],
+   "font": "\"Px437 IBM VGA\", \"Perfect DOS VGA 437\", \"VT323\", \"Courier New\", monospace",
+   "bodySize": "18px",
+   "roles": {
+    "bg": "#000000",
+    "surface": "#000000",
+    "ink": "#e4e4e4",
+    "muted": "#a0a0a0",
+    "border": "#606060",
+    "accent": "#ffff00",
+    "accent2": "#ff4040",
+    "highlight": "#40e4e4",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 29,
+   "id": "templeos",
+   "slug": "29-templeos",
+   "name": "TempleOS",
+   "era": "Desktop OS",
+   "year": 2013,
+   "tags": [
+    "templeos",
+    "16-color",
+    "vga",
+    "mono"
+   ],
+   "font": "\"Px437 IBM VGA 8x16\", \"Perfect DOS VGA 437\", \"VT323\", \"Courier New\", monospace",
+   "bodySize": "18px",
+   "roles": {
+    "bg": "#0000aa",
+    "surface": "#0000aa",
+    "ink": "#ffffff",
+    "muted": "#00ffff",
+    "border": "#00ffff",
+    "accent": "#ffff00",
+    "accent2": "#ff0000",
+    "highlight": "#00ff00",
+    "onaccent": "#0000aa"
+   }
+  },
+  {
+   "num": 30,
+   "id": "bbsansi",
+   "slug": "30-bbs-ansi",
+   "name": "BBS ANSI Art",
+   "era": "Terminal",
+   "year": 1989,
+   "tags": [
+    "bbs",
+    "ansi",
+    "block",
+    "16-color"
+   ],
+   "font": "\"Px437 IBM VGA 8x16\", \"Perfect DOS VGA 437\", \"VT323\", \"Courier New\", monospace",
+   "bodySize": "18px",
+   "roles": {
+    "bg": "#000000",
+    "surface": "#000000",
+    "ink": "#ffffff",
+    "muted": "#aaaaaa",
+    "border": "#aaaaaa",
+    "accent": "#55ffff",
+    "accent2": "#ff55ff",
+    "highlight": "#ffff55",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 31,
+   "id": "mc",
+   "slug": "31-midnight-commander",
+   "name": "Midnight Commander",
+   "era": "Terminal",
+   "year": 1994,
+   "tags": [
+    "tui",
+    "blue",
+    "filemanager",
+    "ncurses"
+   ],
+   "font": "\"Px437 IBM VGA 8x16\", \"Perfect DOS VGA 437\", \"VT323\", \"Courier New\", monospace",
+   "bodySize": "18px",
+   "roles": {
+    "bg": "#000000",
+    "surface": "#0000aa",
+    "ink": "#aaaaaa",
+    "muted": "#aaaaaa",
+    "border": "#aaaaaa",
+    "accent": "#00aaaa",
+    "accent2": "#ffff55",
+    "highlight": "#ffffff",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 32,
+   "id": "matrix",
+   "slug": "32-matrix-rain",
+   "name": "Matrix Rain",
+   "era": "Sci-Fi",
+   "year": 1999,
+   "tags": [
+    "matrix",
+    "green",
+    "code",
+    "rain"
+   ],
+   "font": "\"Matrix Code NFI\", \"MS Mincho\", \"MS Gothic\", \"Courier New\", monospace",
+   "bodySize": null,
+   "roles": {
+    "bg": "#000000",
+    "surface": "#000000",
+    "ink": "#00a830",
+    "muted": "#00a830",
+    "border": "#003b00",
+    "accent": "#62ff9d",
+    "accent2": "#ff3860",
+    "highlight": "#ccffcc",
+    "onaccent": "#000000"
+   }
+  },
+  {
+   "num": 33,
+   "id": "btop",
+   "slug": "33-btop-meters",
+   "name": "btop Meters",
+   "era": "Terminal",
+   "year": 2021,
+   "tags": [
+    "tui",
+    "monitor",
+    "gradient",
+    "meters"
+   ],
+   "font": "\"Hack\", \"JetBrains Mono\", \"Cascadia Code\", \"Fira Code\", \"Consolas\", monospace",
+   "bodySize": "14px",
+   "roles": {
+    "bg": "#131424",
+    "surface": "#1a1c30",
+    "ink": "#e8ecff",
+    "muted": "#7a82b0",
+    "border": "#3b3e5e",
+    "accent": "#00e4ff",
+    "accent2": "#a073ff",
+    "highlight": "#6de37a",
+    "onaccent": "#131424"
+   }
+  },
+  {
+   "num": 34,
+   "id": "c64",
+   "slug": "34-c64-basic",
+   "name": "Commodore 64 BASIC",
+   "era": "Terminal",
+   "year": 1982,
+   "tags": [
+    "c64",
+    "blue",
+    "petscii",
+    "basic"
+   ],
+   "font": "\"C64 Pro\", \"Commodore 64\", \"Px437 PETSCII\", \"Press Start 2P\", monospace",
+   "bodySize": null,
+   "roles": {
+    "bg": "#9692d9",
+    "surface": "#443ec4",
+    "ink": "#c8c0ff",
+    "muted": "#a8a0ff",
+    "border": "#2e2898",
+    "accent": "#4afaff",
+    "accent2": "#fff84a",
+    "highlight": "#ffffff",
+    "onaccent": "#443ec4"
+   }
+  },
+  {
+   "num": 35,
+   "id": "flat2013",
+   "slug": "35-flat-2013",
+   "name": "Flat Design 2013",
+   "era": "Web/UI",
+   "year": 2013,
+   "tags": [
+    "flat",
+    "ios7",
+    "minimal",
+    "bright"
+   ],
+   "font": "\"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#ecf0f1",
+    "surface": "#ffffff",
+    "ink": "#34495e",
+    "muted": "#95a5a6",
+    "border": "#bdc3c7",
+    "accent": "#1abc9c",
+    "accent2": "#3498db",
+    "highlight": "#f1c40f",
+    "onaccent": "#34495e"
+   }
+  },
+  {
+   "num": 36,
+   "id": "glass",
+   "slug": "36-glassmorphism",
+   "name": "Glassmorphism",
+   "era": "Web/UI",
+   "year": 2020,
+   "tags": [
+    "glass",
+    "blur",
+    "frosted",
+    "modern"
+   ],
+   "font": "\"Inter\", \"SF Pro Display\", \"Segoe UI\", system-ui, sans-serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#302b63",
+    "surface": "rgba(255,255,255,0.15)",
+    "ink": "#ffffff",
+    "muted": "rgba(255,255,255,0.7)",
+    "border": "rgba(255,255,255,0.3)",
+    "accent": "#ff6ec4",
+    "accent2": "#7873f5",
+    "highlight": "#ffffff",
+    "onaccent": "#302b63"
+   }
+  },
+  {
+   "num": 37,
+   "id": "neumorph",
+   "slug": "37-neumorphism",
+   "name": "Neumorphism",
+   "era": "Web/UI",
+   "year": 2020,
+   "tags": [
+    "neumorph",
+    "soft",
+    "shadow",
+    "mono"
+   ],
+   "font": "\"Inter\", \"SF Pro\", \"Segoe UI\", system-ui, sans-serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#e0e5ec",
+    "surface": "#e0e5ec",
+    "ink": "#4a5568",
+    "muted": "#8a94a6",
+    "border": "#a3b1c6",
+    "accent": "#6c8cff",
+    "accent2": "#a3b1c6",
+    "highlight": "#ffffff",
+    "onaccent": "#ffffff"
+   }
+  },
+  {
+   "num": 38,
+   "id": "blueprint",
+   "slug": "38-blueprint-cad",
+   "name": "Blueprint / CAD",
+   "era": "Technical",
+   "year": 1980,
+   "tags": [
+    "blueprint",
+    "cad",
+    "grid",
+    "cyan"
+   ],
+   "font": "\"Helvetica Neue\", Arial, sans-serif",
+   "bodySize": "13px",
+   "roles": {
+    "bg": "#0d3a6b",
+    "surface": "#082852",
+    "ink": "#eaf2fb",
+    "muted": "#6892c4",
+    "border": "#c0daf4",
+    "accent": "#ffe066",
+    "accent2": "#ff6b6b",
+    "highlight": "#c0daf4",
+    "onaccent": "#082852"
+   }
+  },
+  {
+   "num": 39,
+   "id": "clay",
+   "slug": "39-claymorphism",
+   "name": "Claymorphism",
+   "era": "Web/UI",
+   "year": 2021,
+   "tags": [
+    "clay",
+    "3d",
+    "soft",
+    "playful"
+   ],
+   "font": "\"Nunito\", \"SF Pro Rounded\", \"Helvetica Neue\", system-ui, sans-serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#f0e9ff",
+    "surface": "#ffffff",
+    "ink": "#3a2e5c",
+    "muted": "#7c6ba8",
+    "border": "#c9a8ff",
+    "accent": "#ffb3d1",
+    "accent2": "#9ec8ff",
+    "highlight": "#a8f0d0",
+    "onaccent": "#3a2e5c"
+   }
+  },
+  {
+   "num": 40,
+   "id": "brutalist",
+   "slug": "40-brutalist-web",
+   "name": "Brutalist Web",
+   "era": "Web/UI",
+   "year": 2016,
+   "tags": [
+    "brutalist",
+    "raw",
+    "mono",
+    "highcontrast"
+   ],
+   "font": "\"Times New Roman\", Times, serif",
+   "bodySize": "16px",
+   "roles": {
+    "bg": "#ffffff",
+    "surface": "#e0e0e0",
+    "ink": "#000000",
+    "muted": "#000000",
+    "border": "#000000",
+    "accent": "#0000ee",
+    "accent2": "#551a8b",
+    "highlight": "#ffff00",
+    "onaccent": "#ffffff"
+   }
+  },
+  {
+   "num": 41,
+   "id": "swiss",
+   "slug": "41-swiss-intl",
+   "name": "Swiss Style",
+   "era": "Design",
+   "year": 1950,
+   "tags": [
+    "swiss",
+    "grid",
+    "helvetica",
+    "minimal"
+   ],
+   "font": "\"Helvetica Neue\", \"Akzidenz-Grotesk\", Helvetica, Arial, sans-serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#f4f3ee",
+    "surface": "#f4f3ee",
+    "ink": "#0a0a0a",
+    "muted": "#6a6a6a",
+    "border": "#0a0a0a",
+    "accent": "#e63946",
+    "accent2": "#0a0a0a",
+    "highlight": "#e63946",
+    "onaccent": "#0a0a0a"
+   }
+  },
+  {
+   "num": 42,
+   "id": "bauhaus",
+   "slug": "42-bauhaus",
+   "name": "Bauhaus",
+   "era": "Design",
+   "year": 1919,
+   "tags": [
+    "bauhaus",
+    "primary",
+    "geometric",
+    "modernist"
+   ],
+   "font": "\"Futura\", \"Futura PT\", \"Century Gothic\", \"Avenir Next\", sans-serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#f0ebe0",
+    "surface": "#f0ebe0",
+    "ink": "#0a0a0a",
+    "muted": "#0a0a0a",
+    "border": "#0a0a0a",
+    "accent": "#d32027",
+    "accent2": "#1c4fb5",
+    "highlight": "#f5c518",
+    "onaccent": "#f0ebe0"
+   }
+  },
+  {
+   "num": 43,
+   "id": "popart",
+   "slug": "43-pop-art-lichtenstein",
+   "name": "Pop Art",
+   "era": "Art",
+   "year": 1960,
+   "tags": [
+    "popart",
+    "halftone",
+    "primary",
+    "comic"
+   ],
+   "font": "\"Bungee\", \"Impact\", \"Arial Black\", sans-serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#fffef8",
+    "surface": "#ffd6c7",
+    "ink": "#0a0a0a",
+    "muted": "#0a0a0a",
+    "border": "#0a0a0a",
+    "accent": "#ed1c24",
+    "accent2": "#1b4ea0",
+    "highlight": "#ffde00",
+    "onaccent": "#0a0a0a"
+   }
+  },
+  {
+   "num": 44,
+   "id": "opart",
+   "slug": "44-op-art",
+   "name": "Op Art",
+   "era": "Art",
+   "year": 1964,
+   "tags": [
+    "opart",
+    "bw",
+    "illusion",
+    "pattern"
+   ],
+   "font": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+   "bodySize": "14px",
+   "roles": {
+    "bg": "#f5f5f5",
+    "surface": "#f5f5f5",
+    "ink": "#0a0a0a",
+    "muted": "#0a0a0a",
+    "border": "#0a0a0a",
+    "accent": "#ec1e23",
+    "accent2": "#0a0a0a",
+    "highlight": "#ec1e23",
+    "onaccent": "#0a0a0a"
+   }
+  },
+  {
+   "num": 45,
+   "id": "hypnagogic",
+   "slug": "45-hypnagogic",
+   "name": "Hypnagogic",
+   "era": "Aesthetic",
+   "year": 2015,
+   "tags": [
+    "dreamy",
+    "gradient",
+    "surreal",
+    "soft"
+   ],
+   "font": "\"Times New Roman\", \"Georgia\", serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#dcc89a",
+    "surface": "#e8d8b0",
+    "ink": "#2a2418",
+    "muted": "#8a7a54",
+    "border": "#6a5530",
+    "accent": "#3d5a80",
+    "accent2": "#c44536",
+    "highlight": "#fff4c8",
+    "onaccent": "#fff4c8"
+   }
+  },
+  {
+   "num": 46,
+   "id": "zen",
+   "slug": "46-monochrome-zen",
+   "name": "Monochrome Zen",
+   "era": "Design",
+   "year": 2010,
+   "tags": [
+    "mono",
+    "zen",
+    "minimal",
+    "calm"
+   ],
+   "font": "\"Söhne\", \"Inter\", \"Helvetica Neue\", sans-serif",
+   "bodySize": "17px",
+   "roles": {
+    "bg": "#fafaf7",
+    "surface": "#fafaf7",
+    "ink": "#0a0a0a",
+    "muted": "#0a0a0a",
+    "border": "rgba(10,10,10,0.15)",
+    "accent": "#0a0a0a",
+    "accent2": "rgba(10,10,10,0.15)",
+    "highlight": "#fafaf7",
+    "onaccent": "#fafaf7"
+   }
+  },
+  {
+   "num": 47,
+   "id": "browser",
+   "slug": "47-default-browser",
+   "name": "Default Browser",
+   "era": "Web",
+   "year": 1994,
+   "tags": [
+    "html",
+    "unstyled",
+    "timesnewroman",
+    "default"
+   ],
+   "font": "\"Times New Roman\", Times, serif",
+   "bodySize": null,
+   "roles": {
+    "bg": "#ffffff",
+    "surface": "#ffffff",
+    "ink": "#000000",
+    "muted": "#000000",
+    "border": "#808080",
+    "accent": "#0000ee",
+    "accent2": "#800080",
+    "highlight": "#ff0000",
+    "onaccent": "#ffffff"
+   }
+  },
+  {
+   "num": 48,
+   "id": "wireframe",
+   "slug": "48-wireframe-sketch",
+   "name": "Wireframe Sketch",
+   "era": "Technical",
+   "year": 2010,
+   "tags": [
+    "wireframe",
+    "sketch",
+    "lofi",
+    "grey"
+   ],
+   "font": "\"Kalam\", \"Comic Sans MS\", cursive",
+   "bodySize": "16px",
+   "roles": {
+    "bg": "#fbfaf4",
+    "surface": "#fbfaf4",
+    "ink": "#2a2a2a",
+    "muted": "#8a8a8a",
+    "border": "#b0b0b0",
+    "accent": "#d4d1c4",
+    "accent2": "#b0b0b0",
+    "highlight": "#d4d1c4",
+    "onaccent": "#2a2a2a"
+   }
+  },
+  {
+   "num": 49,
+   "id": "glitch",
+   "slug": "49-glitch-databend",
+   "name": "Glitch Databend",
+   "era": "Aesthetic",
+   "year": 2010,
+   "tags": [
+    "glitch",
+    "databend",
+    "rgb",
+    "corrupt"
+   ],
+   "font": "\"Space Mono\", \"JetBrains Mono\", \"IBM Plex Mono\", \"Courier New\", monospace",
+   "bodySize": "14px",
+   "roles": {
+    "bg": "#0a0a0a",
+    "surface": "#0a0a0a",
+    "ink": "#f0f0f0",
+    "muted": "#f0f0f0",
+    "border": "#ff00ae",
+    "accent": "#ff004d",
+    "accent2": "#00f4ff",
+    "highlight": "#ffe600",
+    "onaccent": "#0a0a0a"
+   }
+  },
+  {
+   "num": 50,
+   "id": "y2k",
+   "slug": "50-y2k-chrome",
+   "name": "Y2K Chrome",
+   "era": "Aesthetic",
+   "year": 2000,
+   "tags": [
+    "y2k",
+    "chrome",
+    "metallic",
+    "bubble"
+   ],
+   "font": "\"Neue Haas Grotesk\", \"Helvetica Neue\", Arial, sans-serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#d7f0ff",
+    "surface": "#ffffff",
+    "ink": "#202030",
+    "muted": "#5a6478",
+    "border": "#b8c4d8",
+    "accent": "#ff6ab8",
+    "accent2": "#5ab8ff",
+    "highlight": "#9a7aff",
+    "onaccent": "#202030"
+   }
+  },
+  {
+   "num": 51,
+   "id": "duotone",
+   "slug": "51-duotone-poster",
+   "name": "Duotone Poster",
+   "era": "Print",
+   "year": 2015,
+   "tags": [
+    "duotone",
+    "poster",
+    "highcontrast",
+    "bold"
+   ],
+   "font": "\"Futura\", \"Helvetica Neue\", \"Akzidenz-Grotesk\", sans-serif",
+   "bodySize": "15px",
+   "roles": {
+    "bg": "#f4ead3",
+    "surface": "#f4ead3",
+    "ink": "#1a1a3a",
+    "muted": "#1a1a3a",
+    "border": "#1a1a3a",
+    "accent": "#ff3a38",
+    "accent2": "#1a1a3a",
+    "highlight": "#ff3a38",
+    "onaccent": "#1a1a3a"
+   }
+  },
+  {
+   "num": 52,
+   "id": "gridpaper",
+   "slug": "52-grid-paper",
+   "name": "Grid Paper",
+   "era": "Technical",
+   "year": 1980,
+   "tags": [
+    "grid",
+    "paper",
+    "graph",
+    "engineering"
+   ],
+   "font": "\"Shadows Into Light\", \"Architects Daughter\", \"Comic Sans MS\", cursive",
+   "bodySize": "18px",
+   "roles": {
+    "bg": "#fafaf0",
+    "surface": "#fafaf0",
+    "ink": "#1a2847",
+    "muted": "#4a5a6e",
+    "border": "rgba(64, 100, 160, 0.3)",
+    "accent": "#c83030",
+    "accent2": "#2a7a3a",
+    "highlight": "rgba(255, 230, 100, 0.5)",
+    "onaccent": "#fafaf0"
+   }
+  },
+  {
+   "num": 53,
+   "id": "maximalist",
+   "slug": "53-maximalist-banners",
+   "name": "Maximalist 90s Banner",
+   "era": "Web",
+   "year": 1997,
+   "tags": [
+    "maximalist",
+    "banner",
+    "loud",
+    "90s"
+   ],
+   "font": "\"Comic Sans MS\", \"Trebuchet MS\", Verdana, sans-serif",
+   "bodySize": "14px",
+   "roles": {
+    "bg": "#ff00ff",
+    "surface": "#ffff00",
+    "ink": "#000000",
+    "muted": "#000000",
+    "border": "#000000",
+    "accent": "#00ffff",
+    "accent2": "#ffff00",
+    "highlight": "#ff00ff",
+    "onaccent": "#000000"
+   }
+  }
+ ]
+}
